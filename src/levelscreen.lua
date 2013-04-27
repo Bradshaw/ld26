@@ -2,39 +2,34 @@ require("tile")
 
 local levelscreen_mt = {}
 
-levelscreen_mt.map = {}
-for i=1,12 do
-	levelscreen_mt.map[i]={}
-	for j=1,12 do
-		levelscreen_mt.map[i][j] = tile.new()
-	end
-end
+levelone = love.image.newImageData("levels/level1.png")
+
 levelscreen = {}
-levelscreen.current = setmetatable({},{__index = levelscreen_mt})
-levelscreen.all = {}
 
 
-function levelscreen.new(name)
+
+function levelscreen.new(name, imageData)
 	local self = setmetatable({},{__index = levelscreen_mt})
-	self.name = name
-	table.insert(levelscreen.all, self)
+	self.name = name or "Default screen"
+	self.map = {}
+	self.xsize = levelone:getWidth()-1
+	self.ysize = levelone:getHeight()-1
+	for i=1,levelone:getWidth()-1 do
+		self.map[i]={}
+		for j=1,levelone:getHeight()-1 do
+			self.map[i][j] = tile.new()
+			local r,g,b,a = levelone:getPixel(i,j)
+			if r<127 then
+				self.map[i][j].collide = true
+			end
+		end
+	end
 	return self
 end
 
-function levelscreen.setCurrent(level)
-	if type(level)=="number" then
-		levelscreen.current = levelscreen.all[level]
-	elseif type(level)=="string" then
-		for i,v in ipairs(levelscreen.all) do
-			if v.name == level then
-				levelscreen.current = v
-				return i
-			end
-		end
-	else
-		levelscreen.current = level
-	end
-end
+levelscreen.current = levelscreen.new()
+
+
 
 function levelscreen.update(dt)
 	levelscreen.current:update(dt)
@@ -53,25 +48,35 @@ function levelscreen.draw()
 end
 
 function levelscreen_mt:draw()
-	for i,v in ipairs(self.map) do
-		for j,u in ipairs(v) do
-			u:draw(i,j)
+	tile.images.earthybatch:clear()
+	local px, py = player.getScreen()
+	print(px,py)
+	for i=px*12,px*12+13 do
+		for j=py*12,py*12+13 do
+			levelscreen.get(i,j):draw(i,j)
 		end
 	end
+	love.graphics.draw(tile.images.earthybatch)
 end
 
 function levelscreen.tweak(x,y)
-	levelscreen.current:tweak(x,y)
-end
-
-function levelscreen_mt:tweak(x,y)
-	if x>0 and x<=12 and y>0 and y<=12 then
-		self.map[x][y]:tweak()
-	end
+	levelscreen.getPixel(x,y):tweak()
 end
 
 function levelscreen.get(x,y)
+	if x<=0 or x>=levelscreen.current.xsize or y<=0 or y>=levelscreen.current.ysize then
+		return tile.default
+	else
+		return levelscreen.current.map[x][y]
+	end
+end
+
+function levelscreen.getPixel(x,y)
 	local tx = math.floor(x/16)
 	local ty = math.floor(y/16)
-	return levelscreen.current.map[(tx)%12+1][(ty)%12+1]
+	if tx<0 or tx>=levelscreen.current.xsize-1 or ty<0 or ty>=levelscreen.current.ysize-1 then
+		return tile.default
+	else
+		return levelscreen.current.map[tx+1][ty+1]
+	end
 end

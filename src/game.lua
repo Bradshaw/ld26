@@ -19,7 +19,8 @@ end
 
 function state:mousepressed(x, y, btn)
 	if GLOBAL.mode == "edit" then
-		levelscreen.tweak(math.floor(x/32)+1,math.floor(y/32)+1)
+		local px,py = player.getScreen()
+		levelscreen.tweak(math.floor(x/2)+px*192,math.floor(y/2)+py*192)
 	end
 end
 
@@ -73,6 +74,9 @@ function state:draw()
 	love.graphics.push()
 	love.graphics.scale(2,2)
 	--------------------------------------SCALING
+	local offx, offy = player.getScreen()
+	love.graphics.translate(-offx*192,-offy*192)
+
 	love.graphics.setColor(255,255,255)
 
 	levelscreen.draw()

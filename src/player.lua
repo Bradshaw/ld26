@@ -1,16 +1,20 @@
 player = {}
 
-player.x = 96
-player.y = 96
+player.x = (576)/2
+player.y = (576)/2
 
 player.grounded = false
 
 player.accel = 500
-player.damp = 0
+player.damp = 1
 player.grounddamp = 6
 
 player.dx = 0
 player.dy = 0
+
+function player.getScreen()
+	return math.floor(player.x/192),math.floor(player.y/192)
+end
 
 function player.update(dt)
 	if GLOBAL.mode=="play" then
@@ -33,7 +37,7 @@ function player.update(dt)
 		player.dy = player.dy+dt*player.accel
 
 		player.y = player.y+player.dy*dt
-		if levelscreen.get(player.x,player.y).collide then
+		if levelscreen.getPixel(player.x,player.y).collide then
 			if player.dy>0 then
 				player.y = math.floor(player.y/16)*16-1
 			else
@@ -43,7 +47,7 @@ function player.update(dt)
 		end
 
 		player.x = player.x+player.dx*dt
-		if levelscreen.get(player.x,player.y).collide then
+		if levelscreen.getPixel(player.x,player.y).collide then
 			if player.dx>0 then
 				player.x = math.floor(player.x/16)*16-1
 			else
@@ -52,7 +56,7 @@ function player.update(dt)
 			player.dx = -player.dx/2
 		end
 
-		player.grounded = levelscreen.get(player.x,player.y+1).collide
+		player.grounded = levelscreen.getPixel(player.x,player.y+1).collide
 	end
 end
 
