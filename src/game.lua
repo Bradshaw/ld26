@@ -32,11 +32,16 @@ function state:mousepressed(x, y, btn)
 					GLOBAL.currentTool=#GLOBAL.edittools
 				end
 			end
+			if GLOBAL.currentTool == 2 then
+				love.mouse.setVisible(false)
+			else
+				love.mouse.setVisible(true)
+			end
 		else
 			if GLOBAL.currentTool==1 then
 				levelscreen.tweak(math.floor(x/2)+px*192,math.floor(y/2)+py*192, useful.tri(btn=="l",1,-1) )
 			elseif GLOBAL.currentTool==2 then
-
+				levelscreen.decorate(decoration.new(math.floor(x/2)+px*192,math.floor(y/2)+py*192, decoration.currentImage))
 			elseif GLOBAL.currentTool==3 then
 
 			end
@@ -114,6 +119,9 @@ function state:draw()
 	if GLOBAL.mode == "edit" then
 		love.graphics.setColor(255,255,255)
 		love.graphics.print("Editing - "..GLOBAL.edittools[GLOBAL.currentTool],10,10)
+		if GLOBAL.currentTool==2 then
+			love.graphics.draw(decoration.images[decoration.currentImage],love.mouse.getX(),love.mouse.getY(),0,2,2)
+		end
 	end
 end
 

@@ -17,6 +17,7 @@ function levelscreen.new(name, imageData)
 	if type(imageData)=="string" then
 		imageData = love.image.newImageData(imageData)
 	end
+	self.decoration = {}
 	self.name = name or "Default screen"
 	self.map = {}
 	self.xsize = imageData:getWidth()
@@ -53,6 +54,14 @@ function levelscreen_mt:toImageData(filename)
 	return imageData
 end
 
+function levelscreen.decorate(deco)
+	levelscreen.current:decorate(deco)
+end
+
+function levelscreen_mt:decorate(deco)
+	table.insert(self.decoration,deco)
+end
+
 function levelscreen.update(dt)
 	levelscreen.current:update(dt)
 end
@@ -62,6 +71,9 @@ function levelscreen_mt:update(dt)
 		for j,u in ipairs(v) do
 			u:update(dt,i,j)
 		end
+	end
+	for i,v in ipairs(self.decoration) do
+		v:update(dt)
 	end
 end
 
@@ -79,6 +91,9 @@ function levelscreen_mt:draw()
 		end
 	end
 	love.graphics.draw(tile.images.collbatch)
+	for i,v in ipairs(self.decoration) do
+		v:draw()
+	end
 end
 
 function levelscreen.tweak(x,y,dir)

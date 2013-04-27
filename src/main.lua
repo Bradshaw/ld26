@@ -7,6 +7,7 @@ function love.load(arg)
 	require("levelscreen")
 	require("tile")
 	require("player")
+	require("decoration")
 	gstate.switch(game)
 end
 
