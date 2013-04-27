@@ -30,3 +30,27 @@ Step three: Basic things are in
 + Top-class tile platformer physics (wtf?)
 + Need to find a way to save the levels
 + Also prettify everything maybe?
+
+
+Step four: Of mice and men
+==========================
+
++ I need things, here is a list of things that I need:
++ + Loading and saving of collision map to png
++ + Loading and saving of entity map to .lua
++ + Lots of pretty pictures
++ + An animated character
++ + Music and sounds
++ + Interactables:
++ + + Portals from level to level
++ + + Buttons and doors?
++ + + Other "things"
+
++ The "Minimalism" of this game is in the use of simple sounds and graphics to induce emotion
++ Feelings the player should feel:
++ + Angst
++ + Vulnerability
++ + Sorrow
++ + Pity
++ + Possibly release and liberation
++ + Happysad mothafocka
