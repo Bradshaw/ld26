@@ -8,4 +8,12 @@ function useful.sign(val)
 	end
 end
 
+function useful.tri(cond, a, b)
+	if cond then
+		return a
+	else
+		return b
+	end
+end
+
 math.sign = useful.sign

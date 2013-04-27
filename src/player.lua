@@ -37,7 +37,7 @@ function player.update(dt)
 		player.dy = player.dy+dt*player.accel
 
 		player.y = player.y+player.dy*dt
-		if levelscreen.getPixel(player.x,player.y).collide then
+		if levelscreen.getCollision(player.x,player.y) then
 			if player.dy>0 then
 				player.y = math.floor(player.y/16)*16-1
 			else
@@ -47,7 +47,7 @@ function player.update(dt)
 		end
 
 		player.x = player.x+player.dx*dt
-		if levelscreen.getPixel(player.x,player.y).collide then
+		if levelscreen.getCollision(player.x,player.y) then
 			if player.dx>0 then
 				player.x = math.floor(player.x/16)*16-1
 			else
@@ -56,7 +56,7 @@ function player.update(dt)
 			player.dx = -player.dx/2
 		end
 
-		player.grounded = levelscreen.getPixel(player.x,player.y+1).collide
+		player.grounded = levelscreen.getCollision(player.x,player.y+1)
 	end
 end
 

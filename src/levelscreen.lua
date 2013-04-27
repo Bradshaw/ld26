@@ -20,7 +20,7 @@ function levelscreen.new(name, imageData)
 			self.map[i][j] = tile.new()
 			local r,g,b,a = levelone:getPixel(i,j)
 			if r<127 then
-				self.map[i][j].collide = true
+				self.map[i][j].type = tile.type.FULL
 			end
 		end
 	end
@@ -50,7 +50,6 @@ end
 function levelscreen_mt:draw()
 	tile.images.earthybatch:clear()
 	local px, py = player.getScreen()
-	print(px,py)
 	for i=px*12,px*12+13 do
 		for j=py*12,py*12+13 do
 			levelscreen.get(i,j):draw(i,j)
@@ -59,8 +58,8 @@ function levelscreen_mt:draw()
 	love.graphics.draw(tile.images.earthybatch)
 end
 
-function levelscreen.tweak(x,y)
-	levelscreen.getPixel(x,y):tweak()
+function levelscreen.tweak(x,y,dir)
+	levelscreen.getPixel(x,y):tweak(dir)
 end
 
 function levelscreen.get(x,y)
@@ -79,4 +78,8 @@ function levelscreen.getPixel(x,y)
 	else
 		return levelscreen.current.map[tx+1][ty+1]
 	end
+end
+
+function levelscreen.getCollision(x,y)
+	return levelscreen.getPixel(x,y).type == tile.type.FULL
 end

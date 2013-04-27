@@ -19,8 +19,9 @@ end
 
 function state:mousepressed(x, y, btn)
 	if GLOBAL.mode == "edit" then
+		print(btn)
 		local px,py = player.getScreen()
-		levelscreen.tweak(math.floor(x/2)+px*192,math.floor(y/2)+py*192)
+		levelscreen.tweak(math.floor(x/2)+px*192,math.floor(y/2)+py*192, useful.tri(btn=="l",1,-1) )
 	end
 end
 
