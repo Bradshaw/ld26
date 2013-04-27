@@ -2,6 +2,7 @@ player = {}
 
 player.x = (576)/2
 player.y = (576)/2
+player.height = 10
 
 player.grounded = false
 
@@ -38,22 +39,43 @@ function player.update(dt)
 
 		player.y = player.y+player.dy*dt
 		if levelscreen.getCollision(player.x,player.y) then
-			if player.dy>0 then
-				player.y = math.floor(player.y/16)*16-1
+			local cx, cy, slope = levelscreen.getCollision(player.x,player.y)
+			if slope then
+				if player.dy>0 then
+					player.y = cy-1
+				else
+					player.y = cy+1
+				end
 			else
-				player.y = math.floor(player.y/16)*16+17
+				if player.dy>0 then
+					player.y = math.floor(player.y/16)*16-1
+				else
+					player.y = math.floor(player.y/16)*16+17
+				end
 			end
 			player.dy = 0
 		end
 
 		player.x = player.x+player.dx*dt
 		if levelscreen.getCollision(player.x,player.y) then
-			if player.dx>0 then
-				player.x = math.floor(player.x/16)*16-1
+			local cx, cy, slope = levelscreen.getCollision(player.x,player.y)
+			if slope and math.abs(cy-player.y)<2 then
+				if player.dx>0 then
+					--player.x = math.floor(player.x/16)*16
+				else
+					--player.x = math.floor(player.x/16)*16+16
+				end
+				--player.dx = -player.dx/2
+				player.y = cy
+				player.dy = 0
 			else
-				player.x = math.floor(player.x/16)*16+17
+				if player.dx>0 then
+					player.x = math.floor(player.x/16)*16-1
+				else
+					player.x = math.floor(player.x/16)*16+17
+				end
+				player.dx = -player.dx/2
 			end
-			player.dx = -player.dx/2
 		end
 
 		player.grounded = levelscreen.getCollision(player.x,player.y+1)

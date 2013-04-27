@@ -17,6 +17,16 @@ tile.images = {}
 tile.images.earthy = love.graphics.newImage("images/earthy.png")
 tile.images.earthybatch = love.graphics.newSpriteBatch(tile.images.earthy,20000)
 
+tile.images.colltiles = love.graphics.newImage("images/colltiles.png")
+tile.images.collbatch = love.graphics.newSpriteBatch(tile.images.colltiles,20000)
+tile.images.collquads = {}
+tile.images.collquads[0] = love.graphics.newQuad( 0, 0, 16, 16, 96, 16 )
+tile.images.collquads[1] = love.graphics.newQuad( 16, 0, 16, 16, 96, 16 )
+tile.images.collquads[2] = love.graphics.newQuad( 32, 0, 16, 16, 96, 16 )
+tile.images.collquads[3] = love.graphics.newQuad( 48, 0, 16, 16, 96, 16 )
+tile.images.collquads[4] = love.graphics.newQuad( 64, 0, 16, 16, 96, 16 )
+tile.images.collquads[5] = love.graphics.newQuad( 80, 0, 16, 16, 96, 16 )
+
 function tile.new()
 	local self = setmetatable({},{__index=tile_mt})
 	self.type = tile.type.EMPTY
@@ -39,13 +49,10 @@ function tile_mt:fromPixel(r,g,b,a)
 end
 
 function tile_mt:draw(x, y)
-	if self.type == tile.type.FULL then
-		love.graphics.setColor(255,255,255)
+	if self.type~=tile.type.EMPTY then
+		tile.images.collbatch:addq(tile.images.collquads[self.type],(x-1)*16,(y-1)*16 )
+		--love.graphics.setColor((self.type*5)%3*127,(self.type*3)%3*127,self.type%2*127)
 		--love.graphics.rectangle("fill",(x-1)*16,(y-1)*16,16,16)
-		tile.images.earthybatch:add((x-1)*16-4,(y-1)*16-4)
-	elseif self.type~=tile.type.EMPTY then
-		love.graphics.setColor((self.type*5)%3*127,(self.type*3)%3*127,self.type%2*127)
-		love.graphics.rectangle("fill",(x-1)*16,(y-1)*16,16,16)
 	end
 end
 

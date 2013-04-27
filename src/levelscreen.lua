@@ -48,14 +48,14 @@ function levelscreen.draw()
 end
 
 function levelscreen_mt:draw()
-	tile.images.earthybatch:clear()
+	tile.images.collbatch:clear()
 	local px, py = player.getScreen()
 	for i=px*12,px*12+13 do
 		for j=py*12,py*12+13 do
 			levelscreen.get(i,j):draw(i,j)
 		end
 	end
-	love.graphics.draw(tile.images.earthybatch)
+	love.graphics.draw(tile.images.collbatch)
 end
 
 function levelscreen.tweak(x,y,dir)
@@ -81,5 +81,35 @@ function levelscreen.getPixel(x,y)
 end
 
 function levelscreen.getCollision(x,y)
-	return levelscreen.getPixel(x,y).type == tile.type.FULL
+	if levelscreen.getPixel(x,y).type == tile.type.EMPTY then
+		return false
+	elseif levelscreen.getPixel(x,y).type == tile.type.FULL then
+		local modx, mody = x%16, y%16
+		if modx>mody then
+			return math.floor(x/16)*16+16, math.floor(y/16)*16
+		else
+			return math.floor(x/16)*16, math.floor(y/16)*16+16
+		end
+	else
+		local modx, mody = x%16, y%16
+		local divx, divy = math.floor(x/16)*16, math.floor(y/16)*16
+		if levelscreen.getPixel(x,y).type == tile.type.TOPLEFT then
+			if modx+mody<16 then
+				return divx+modx, divy+16-modx, true
+			end
+		elseif levelscreen.getPixel(x,y).type == tile.type.TOPRIGHT then
+			if modx>mody then
+				return divx+modx, divy+modx, true
+			end
+		elseif levelscreen.getPixel(x,y).type == tile.type.BOTTOMLEFT then
+			if modx<mody then
+				return divx+modx, divy+modx, true
+			end
+		elseif levelscreen.getPixel(x,y).type == tile.type.BOTTOMRIGHT then
+			if modx+mody>16 then
+				return divx+modx, divy+16-modx, true
+			end
+		end
+		return false
+	end
 end
