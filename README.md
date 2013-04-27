@@ -21,3 +21,12 @@ Step two: It's going to be a SAD game
 + She believes it will be meaningful to die at the monolith
 + An exploration platformer in a minimally chromatic universe (echofall)
 + Travel through the world and find the monolith
+
+
+Step three: Basic things are in
+===============================
+
++ Simple level in-game format and level editor
++ Top-class tile platformer physics (wtf?)
++ Need to find a way to save the levels
++ Also prettify everything maybe?
