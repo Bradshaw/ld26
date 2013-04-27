@@ -36,7 +36,7 @@ Step four: Of mice and men
 ==========================
 
 * I need things, here is a list of things that I need:
-	* Loading and saving of collision map to png
+	* ~~Loading and saving of collision map to png~~
 	* Loading and saving of entity map to .lua
 	* Lots of pretty pictures
 	* An animated character
