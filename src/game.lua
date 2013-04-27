@@ -2,6 +2,7 @@ local state = gstate.new()
 
 
 function state:init()
+	vig = love.graphics.newImage("images/vig.png")
 	GLOBAL.mode = "edit"
 end
 
@@ -72,12 +73,13 @@ function state:draw()
 	love.graphics.push()
 	love.graphics.scale(2,2)
 	--------------------------------------SCALING
-
+	love.graphics.setColor(255,255,255)
 
 	levelscreen.draw()
 	player.draw()
 
-
+	love.graphics.setColor(0,0,0)
+	love.graphics.draw(vig)
 	------------------------------------END SCALING
 	love.graphics.pop()
 end

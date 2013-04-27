@@ -6,7 +6,7 @@ player.y = 96
 player.grounded = false
 
 player.accel = 500
-player.damp = 3
+player.damp = 0
 player.grounddamp = 6
 
 player.dx = 0
@@ -23,7 +23,7 @@ function player.update(dt)
 		end
 
 		if	love.keyboard.isDown("up","z"," ","w") and player.grounded then
-			player.dy = -300
+			player.dy = -200
 			player.y = player.y-2
 		end
 
