@@ -86,30 +86,30 @@ function levelscreen.getCollision(x,y)
 	elseif levelscreen.getPixel(x,y).type == tile.type.FULL then
 		local modx, mody = x%16, y%16
 		if modx>mody then
-			return math.floor(x/16)*16+16, math.floor(y/16)*16
+			return true, math.floor(x/16)*16+16, math.floor(y/16)*16
 		else
-			return math.floor(x/16)*16, math.floor(y/16)*16+16
+			return true, math.floor(x/16)*16, math.floor(y/16)*16+16
 		end
 	else
 		local modx, mody = x%16, y%16
 		local divx, divy = math.floor(x/16)*16, math.floor(y/16)*16
 		if levelscreen.getPixel(x,y).type == tile.type.TOPLEFT then
 			if modx+mody<16 then
-				return divx+modx, divy+16-modx, true
+				return true, ivx+modx, divy+16-modx, true
 			end
 		elseif levelscreen.getPixel(x,y).type == tile.type.TOPRIGHT then
 			if modx>mody then
-				return divx+modx, divy+modx, true
+				return true, divx+modx, divy+modx, true
 			end
 		elseif levelscreen.getPixel(x,y).type == tile.type.BOTTOMLEFT then
 			if modx<mody then
-				return divx+modx, divy+modx, true
+				return true, divx+modx, divy+modx, true
 			end
 		elseif levelscreen.getPixel(x,y).type == tile.type.BOTTOMRIGHT then
 			if modx+mody>16 then
-				return divx+modx, divy+16-modx, true
+				return true, divx+modx, divy+16-modx, true
 			end
 		end
-		return false
+		return false, divx+modx, divy+16-modx, true
 	end
 end
