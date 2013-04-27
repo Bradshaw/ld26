@@ -1,6 +1,12 @@
 function love.load(arg)
+	love.graphics.setDefaultImageFilter("nearest","nearest")
+	require("global")
+	require("useful")
 	gstate = require "gamestate"
 	game = require("game")
+	require("levelscreen")
+	require("tile")
+	require("player")
 	gstate.switch(game)
 end
 
