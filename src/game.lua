@@ -78,6 +78,7 @@ function state:draw()
 	love.graphics.scale(2,2)
 	--------------------------------------SCALING
 	local offx, offy = player.getScreen()
+	love.graphics.push()
 	love.graphics.translate(-offx*192,-offy*192)
 
 	love.graphics.setColor(255,255,255)
@@ -85,8 +86,9 @@ function state:draw()
 	levelscreen.draw()
 	player.draw()
 
+	love.graphics.pop()
 	love.graphics.setColor(0,0,0)
-	love.graphics.draw(vig)
+	love.graphics.draw(vig, 0, 0)
 	------------------------------------END SCALING
 	love.graphics.pop()
 end
