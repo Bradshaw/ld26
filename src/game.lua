@@ -20,7 +20,27 @@ end
 function state:mousepressed(x, y, btn)
 	if GLOBAL.mode == "edit" then
 		local px,py = player.getScreen()
-		levelscreen.tweak(math.floor(x/2)+px*192,math.floor(y/2)+py*192, useful.tri(btn=="l",1,-1) )
+		if btn=="wu" or btn=="wd" then
+			if btn=="wu" then
+				GLOBAL.currentTool = GLOBAL.currentTool+1
+				if GLOBAL.currentTool>#GLOBAL.edittools then
+					GLOBAL.currentTool=1
+				end
+			else
+				GLOBAL.currentTool = GLOBAL.currentTool-1
+				if GLOBAL.currentTool<1 then
+					GLOBAL.currentTool=#GLOBAL.edittools
+				end
+			end
+		else
+			if GLOBAL.currentTool==1 then
+				levelscreen.tweak(math.floor(x/2)+px*192,math.floor(y/2)+py*192, useful.tri(btn=="l",1,-1) )
+			elseif GLOBAL.currentTool==2 then
+
+			elseif GLOBAL.currentTool==3 then
+
+			end
+		end
 	end
 end
 
@@ -91,6 +111,10 @@ function state:draw()
 	love.graphics.draw(vig, 0, 0)
 	------------------------------------END SCALING
 	love.graphics.pop()
+	if GLOBAL.mode == "edit" then
+		love.graphics.setColor(255,255,255)
+		love.graphics.print("Editing - "..GLOBAL.edittools[GLOBAL.currentTool],10,10)
+	end
 end
 
 return state

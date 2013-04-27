@@ -25,7 +25,6 @@ function levelscreen.new(name, imageData)
 		self.map[i+1]={}
 		for j=0,levelone:getHeight()-1 do
 			self.map[i+1][j+1] = tile.new(imageData:getPixel(i,j))
-			--self.map[i][j]:fromPixel(levelone:getPixel(i,j))
 		end
 	end
 	return self
@@ -48,8 +47,6 @@ function levelscreen_mt:toImageData(filename)
 		end
 	end
 	if filename then
-		print("Encoding dat bitch")
-		print("making da dir")
 		love.filesystem.mkdir("levels")
 		imageData:encode("levels/"..filename)
 	end
