@@ -2,7 +2,11 @@ require("tile")
 
 local levelscreen_mt = {}
 
-levelone = love.image.newImageData("levels/level1.png")
+local imfile = love.filesystem.newFile("levels/level1.png")
+imfile:open("r")
+levelone = love.image.newImageData(imfile)
+imfile:close()
+
 
 levelscreen = {}
 
@@ -10,26 +14,47 @@ levelscreen = {}
 
 function levelscreen.new(name, imageData)
 	local self = setmetatable({},{__index = levelscreen_mt})
+	if type(imageData)=="string" then
+		imageData = love.image.newImageData(imageData)
+	end
 	self.name = name or "Default screen"
 	self.map = {}
-	self.xsize = levelone:getWidth()-1
-	self.ysize = levelone:getHeight()-1
-	for i=1,levelone:getWidth()-1 do
-		self.map[i]={}
-		for j=1,levelone:getHeight()-1 do
-			self.map[i][j] = tile.new()
-			local r,g,b,a = levelone:getPixel(i,j)
-			if r<127 then
-				self.map[i][j].type = tile.type.FULL
-			end
+	self.xsize = imageData:getWidth()
+	self.ysize = imageData:getHeight()
+	for i=0,imageData:getWidth()-1 do
+		self.map[i+1]={}
+		for j=0,levelone:getHeight()-1 do
+			self.map[i+1][j+1] = tile.new(imageData:getPixel(i,j))
+			--self.map[i][j]:fromPixel(levelone:getPixel(i,j))
 		end
 	end
 	return self
 end
 
-levelscreen.current = levelscreen.new()
+levelscreen.current = levelscreen.new("Level One",levelone)
 
+function levelscreen.toImageData(file)
+	return levelscreen.current:toImageData(file)
+end
 
+function levelscreen_mt:toImageData(filename)
+	local imageData = love.image.newImageData( self.xsize+1, self.ysize+1 )
+	for i=0,imageData:getWidth() do
+		for j=0,levelone:getHeight() do
+			if self.map[i+1] and self.map[i+1][j+1] and self.map[i+1][j+1].toPixel then
+				local r,g,b,a = self.map[i+1][j+1]:toPixel()
+				imageData:setPixel(i,j,r,g,b,a)
+			end
+		end
+	end
+	if filename then
+		print("Encoding dat bitch")
+		print("making da dir")
+		love.filesystem.mkdir("levels")
+		imageData:encode("levels/"..filename)
+	end
+	return imageData
+end
 
 function levelscreen.update(dt)
 	levelscreen.current:update(dt)
@@ -52,6 +77,7 @@ function levelscreen_mt:draw()
 	local px, py = player.getScreen()
 	for i=px*12,px*12+13 do
 		for j=py*12,py*12+13 do
+			local t = levelscreen
 			levelscreen.get(i,j):draw(i,j)
 		end
 	end
@@ -66,7 +92,7 @@ function levelscreen.get(x,y)
 	if x<=0 or x>=levelscreen.current.xsize or y<=0 or y>=levelscreen.current.ysize then
 		return tile.default
 	else
-		return levelscreen.current.map[x][y]
+		return levelscreen.current.map[x][y] or tile.default
 	end
 end
 
@@ -74,7 +100,7 @@ function levelscreen.getPixel(x,y)
 	local tx = math.floor(x/16)
 	local ty = math.floor(y/16)
 	if tx<0 or tx>=levelscreen.current.xsize-1 or ty<0 or ty>=levelscreen.current.ysize-1 then
-		return tile.default
+		return tile.new(1,0,0,255)
 	else
 		return levelscreen.current.map[tx+1][ty+1]
 	end

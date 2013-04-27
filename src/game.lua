@@ -56,6 +56,9 @@ function state:keypressed(key, uni)
 			GLOBAL.mode = "edit"
 		end
 	end
+	if key=="i" then
+		levelscreen.toImageData("level1.png")
+	end
 end
 
 

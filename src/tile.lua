@@ -27,25 +27,30 @@ tile.images.collquads[3] = love.graphics.newQuad( 48, 0, 16, 16, 96, 16 )
 tile.images.collquads[4] = love.graphics.newQuad( 64, 0, 16, 16, 96, 16 )
 tile.images.collquads[5] = love.graphics.newQuad( 80, 0, 16, 16, 96, 16 )
 
-function tile.new()
+function tile.new(r,g,b,a)
 	local self = setmetatable({},{__index=tile_mt})
-	self.type = tile.type.EMPTY
+	if r and g and b and a then
+		self:fromPixel(r,g,b,a)
+	else
+		self.type = tile.type.EMPTY
+	end
 	return self
 end
-
-tile.default = tile.new()
-tile.default.type = tile.type.FULL
 
 function tile_mt:update(dt,x,y)
 
 end
 
 function tile_mt:fromPixel(r,g,b,a)
-	if r==0 then
-		self.type=tile.type.FULL
+	if r<6 then
+		self.type=r
 	else
 		self.type=tile.type.EMPTY
 	end
+end
+
+function tile_mt:toPixel()
+	return self.type, 0, 0, 255
 end
 
 function tile_mt:draw(x, y)
@@ -60,3 +65,5 @@ function tile_mt:tweak(direction)
 	direction = direction or 1
 	self.type = (self.type+direction)%6
 end
+
+tile.default = tile.new(1,0,0,255)
