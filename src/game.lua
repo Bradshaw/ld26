@@ -2,6 +2,8 @@ local state = gstate.new()
 
 
 function state:init()
+	dascween = love.graphics.newCanvas(256,256)
+	dascween:setFilter("nearest","nearest")
 	vig = love.graphics.newImage("images/vig.png")
 	unsaved = false
 	--GLOBAL.mode = "edit"
@@ -137,9 +139,15 @@ end
 
 
 function state:draw()
-	love.graphics.setBackgroundColor(useful.hsv(GLOBAL.skyhue,GLOBAL.skysat,GLOBAL.skyval))
+	--love.graphics.setBackgroundColor(useful.hsv(GLOBAL.skyhue,GLOBAL.skysat,GLOBAL.skyval))
+	love.graphics.setBackgroundColor(0,0,0)
 	love.graphics.push()
-	love.graphics.scale(2,2)
+	--love.graphics.scale(2,2)
+	love.graphics.setCanvas(dascween)
+	--love.graphics.setBlendMode("premultiplied")
+	love.graphics.setBlendMode("alpha")
+	love.graphics.setColor(useful.hsv(GLOBAL.skyhue,GLOBAL.skysat,GLOBAL.skyval))
+	love.graphics.rectangle("fill",0,0,256,256)
 	--------------------------------------SCALING
 	local offx, offy = player.getScreen()
 	love.graphics.push()
@@ -157,9 +165,14 @@ function state:draw()
 		love.graphics.setColor(255,0,0)
 		love.graphics.rectangle("line",0,0,192,192)
 	end
-	love.graphics.setColor(0,0,0,140)
-	love.graphics.draw(vig, 0, 0)
 	------------------------------------END SCALING
+	love.graphics.setCanvas()
+	love.graphics.setBlendMode("premultiplied")
+--	love.graphics.setBlendMode("alpha")
+	love.graphics.setColor(255,255,255)
+	love.graphics.draw(dascween,0,0,0,2,2)
+	love.graphics.setColor(0,0,0,140)
+	love.graphics.draw(vig, 0, 0,0,2,2)
 	love.graphics.pop()
 	if GLOBAL.mode == "edit" then
 		love.graphics.setColor(255,255,255)
