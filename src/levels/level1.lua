@@ -2504,11 +2504,5687 @@ image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3
         y=358 
       },
       { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.021389434466087,
+        x=262,
+        y=250 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.011620711460761,
+        x=282,
+        y=251 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.025492338766725,
+        x=256,
+        y=207 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.024650138477667,
+        x=305,
+        y=210 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.00020673029266483,
+        x=297,
+        y=269 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.023854222498276,
+        x=438,
+        y=265 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0064875656501357,
+        x=477,
+        y=240 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0069895122174128,
+        x=506,
+        y=246 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0064831269499376,
+        x=473,
+        y=312 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.02926565252571,
+        x=532,
+        y=216 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.042117444357807,
+        x=527,
+        y=255 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.043167794243378,
+        x=472,
+        y=219 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.044305045057082,
+        x=463,
+        y=320 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.017564945617846,
+        x=439,
+        y=224 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.038306380821275,
+        x=489,
+        y=248 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.033929366361257,
+        x=457,
+        y=85 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.039377260743247,
+        x=454,
+        y=43 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.039587650406358,
+        x=460,
+        y=39 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.043541614571464,
+        x=450,
+        y=38 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.042153651896691,
+        x=521,
+        y=43 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.028441140464357,
+        x=497,
+        y=33 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.025283020033561,
+        x=469,
+        y=74 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.037671629550485,
+        x=461,
+        y=77 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.027148576744677,
+        x=474,
+        y=69 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.017641662644974,
+        x=428,
+        y=74 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0093914576155923,
+        x=432,
+        y=146 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.028239636147694,
+        x=471,
+        y=153 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.04292280237638,
+        x=526,
+        y=137 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.018795992234567,
+        x=394,
+        y=151 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.03700735317732,
+        x=422,
+        y=138 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.011055514661153,
+        x=564,
+        y=137 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0098827705659977,
+        x=600,
+        y=152 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.038393328160781,
+        x=697,
+        y=150 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.00032814768468235,
+        x=636,
+        y=152 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.018410138361234,
+        x=576,
+        y=132 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.016705233910712,
+        x=583,
+        y=136 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.001868993502219,
+        x=587,
+        y=141 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.027883530591076,
+        x=591,
+        y=138 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.02043146550132,
+        x=617,
+        y=151 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.026017887755849,
+        x=620,
+        y=156 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.016479597046643,
+        x=627,
+        y=147 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.015168914933191,
+        x=719,
+        y=193 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.015146575704941,
+        x=730,
+        y=199 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.036255694534941,
+        x=721,
+        y=201 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0061677088397301,
+        x=677,
+        y=250 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.026461002409196,
+        x=679,
+        y=262 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0273450766086,
+        x=633,
+        y=263 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.03734424992699,
+        x=649,
+        y=313 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.038926471423373,
+        x=841,
+        y=233 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.038227586693108,
+        x=794,
+        y=257 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.036475278042505,
+        x=795,
+        y=230 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.023449041483468,
+        x=906,
+        y=232 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.033248484057781,
+        x=840,
+        y=312 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.02081893039639,
+        x=802,
+        y=321 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.027950524697718,
+        x=905,
+        y=315 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.047083137653271,
+        x=905,
+        y=324 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.046562960141593,
+        x=825,
+        y=310 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.043754697995341,
+        x=817,
+        y=314 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.025529162777202,
+        x=869,
+        y=357 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.035070052613153,
+        x=873,
+        y=361 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.022481500503658,
+        x=884,
+        y=358 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.045489682351583,
+        x=848,
+        y=242 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.027371450984345,
+        x=990,
+        y=274 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.018742016724496,
+        x=1049,
+        y=310 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.046908220001146,
+        x=1016,
+        y=308 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.00086240951857022,
+        x=1020,
+        y=313 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.013983556981162,
+        x=983,
+        y=294 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.013793663448135,
+        x=1048,
+        y=232 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.030615266558712,
+        x=1081,
+        y=298 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.038030338893572,
+        x=1082,
+        y=301 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.037492648181119,
+        x=1093,
+        y=313 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0031413541163836,
+        x=1093,
+        y=326 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0025428712939001,
+        x=1032,
+        y=246 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.010075398984558,
+        x=1000,
+        y=250 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.042247984151319,
+        x=976,
+        y=232 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0079583267981659,
+        x=1077,
+        y=219 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.015280179464644,
+        x=1087,
+        y=338 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.030055648186192,
+        x=1059,
+        y=280 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.037022567440893,
+        x=1083,
+        y=354 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.035278269959975,
+        x=1078,
+        y=343 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.013633081431365,
+        x=1094,
+        y=356 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.022730412371474,
+        x=1106,
+        y=352 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.029215817467236,
+        x=1117,
+        y=360 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.048962850387489,
+        x=1032,
+        y=309 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.02933068154361,
+        x=970,
+        y=282 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.025953857144547,
+        x=1094,
+        y=305 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.02231747217735,
+        x=1208,
+        y=341 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.0094101017174972,
+        x=1276,
+        y=303 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.04139497524287,
+        x=1223,
+        y=360 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.045106253282407,
+        x=1167,
+        y=359 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.013282168671771,
+        x=1187,
+        y=353 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.043137608078702,
+        x=1129,
+        y=353 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.03262975113359,
+        x=999,
+        y=292 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.0026795520355549,
+        x=1291,
+        y=291 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.013083636034451,
+        x=1270,
+        y=326 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.037147740786033,
+        x=1274,
+        y=333 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.029552728940382,
+        x=1258,
+        y=357 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.035485514683282,
+        x=1221,
+        y=345 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.026596333998408,
+        x=1258,
+        y=245 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.029379704416368,
+        x=1259,
+        y=231 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.030472334514769,
+        x=1258,
+        y=232 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.037455483072559,
+        x=1223,
+        y=354 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.035095206581175,
+        x=1259,
+        y=250 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.044482700298265,
+        x=1226,
+        y=216 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.020466873160043,
+        x=1159,
+        y=358 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=0.046780451171513,
+        x=1180,
+        y=338 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0421905999709,
+        x=1279,
+        y=269 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0099540798154597,
+        x=1286,
+        y=276 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.03860134636149,
+        x=1274,
+        y=260 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.024847013850789,
+        x=1276,
+        y=249 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0096315722343476,
+        x=1290,
+        y=286 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.022647691879993,
+        x=1288,
+        y=299 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0097534414338144,
+        x=1217,
+        y=203 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.025768571191937,
+        x=1205,
+        y=198 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.023551352539733,
+        x=1208,
+        y=192 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.047992028741643,
+        x=1211,
+        y=211 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.031289978068913,
+        x=1222,
+        y=372 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.048825038562788,
+        x=1256,
+        y=368 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.020769171344993,
+        x=1268,
+        y=344 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.010962807184447,
+        x=1158,
+        y=399 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.0420737495798,
+        x=1189,
+        y=401 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.0068814976123878,
+        x=1177,
+        y=420 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.02472218772075,
+        x=1200,
+        y=416 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0073360161020691,
+        x=1223,
+        y=390 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.00035471417121162,
+        x=1258,
+        y=390 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.024247536282884,
+        x=1272,
+        y=394 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.046642405359562,
+        x=1263,
+        y=396 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.041735226273871,
+        x=1220,
+        y=393 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0081276676733358,
+        x=1224,
+        y=434 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.029346989546592,
+        x=1234,
+        y=439 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.024228814373943,
+        x=1214,
+        y=429 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.047256587833662,
+        x=1250,
+        y=437 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.019617768921159,
+        x=1261,
+        y=431 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0065969419306023,
+        x=1271,
+        y=425 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.031367859886779,
+        x=1286,
+        y=424 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.04913077334811,
+        x=1290,
+        y=415 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.022497317726757,
+        x=1282,
+        y=401 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.045822653556652,
+        x=1280,
+        y=392 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0015414542478251,
+        x=1212,
+        y=390 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.015345376778134,
+        x=1198,
+        y=393 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.015556281059081,
+        x=1186,
+        y=387 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.035330718866625,
+        x=1135,
+        y=398 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.019782432271295,
+        x=1015,
+        y=426 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.02721921399668,
+        x=1023,
+        y=411 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0095490803840712,
+        x=1034,
+        y=405 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.04894581658227,
+        x=1049,
+        y=394 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.0056248328133922,
+        x=982,
+        y=461 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.03433728689712,
+        x=1009,
+        y=448 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.03394808892686,
+        x=969,
+        y=475 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.009756084837711,
+        x=981,
+        y=471 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.019041021023751,
+        x=1071,
+        y=394 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.047137491662495,
+        x=1133,
+        y=460 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.01961381367032,
+        x=1294,
+        y=501 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.034197781774177,
+        x=1175,
+        y=505 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0077767546463114,
+        x=1190,
+        y=514 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.01453043321384,
+        x=1194,
+        y=530 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.00080453498336577,
+        x=1205,
+        y=531 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.029438997880242,
+        x=1161,
+        y=491 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.025511944051508,
+        x=1211,
+        y=550 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.012913340086574,
+        x=1160,
+        y=490 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.046032382791211,
+        x=1222,
+        y=553 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.035380039342916,
+        x=1238,
+        y=549 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.01681718597177,
+        x=1299,
+        y=426 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.047841745125607,
+        x=1298,
+        y=436 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.03871416520133,
+        x=1311,
+        y=433 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.001486907451184,
+        x=1322,
+        y=437 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.011440483252411,
+        x=1308,
+        y=444 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.022595083789635,
+        x=1320,
+        y=448 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.027937321554234,
+        x=1314,
+        y=458 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.032261578177548,
+        x=1306,
+        y=454 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.028180114788455,
+        x=1301,
+        y=467 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.017075997535274,
+        x=1308,
+        y=462 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0065910107905255,
+        x=1318,
+        y=444 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.027242352045908,
+        x=1315,
+        y=419 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.019077555483572,
+        x=1291,
+        y=469 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.016280706667094,
+        x=1271,
+        y=494 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.032904077386732,
+        x=1277,
+        y=505 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.023094617901365,
+        x=1272,
+        y=494 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.013257222876803,
+        x=1287,
+        y=516 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.032167978037789,
+        x=1275,
+        y=483 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.047719335968476,
+        x=1271,
+        y=472 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.024666242523076,
+        x=1412,
+        y=516 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.033363409391366,
+        x=1393,
+        y=513 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0086476318162177,
+        x=1431,
+        y=504 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.037477519457628,
+        x=1464,
+        y=502 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.03774054730427,
+        x=1511,
+        y=454 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.03394253510158,
+        x=1465,
+        y=407 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.032043587370187,
+        x=1484,
+        y=392 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.022400473067491,
+        x=1441,
+        y=468 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.00031015111993671,
+        x=1359,
+        y=516 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0049693295365892,
+        x=1373,
+        y=516 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.040416050404461,
+        x=1351,
+        y=517 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.026636966016524,
+        x=1479,
+        y=538 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.033347669400448,
+        x=1485,
+        y=531 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.030151901927572,
+        x=1467,
+        y=546 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0052368844890123,
+        x=1461,
+        y=558 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.039013448268503,
+        x=1511,
+        y=533 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.023066957180106,
+        x=1490,
+        y=512 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.045888958445259,
+        x=1416,
+        y=439 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.023043413811722,
+        x=1391,
+        y=460 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.033612863300637,
+        x=1367,
+        y=477 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0056929968836244,
+        x=1373,
+        y=472 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.032278087705854,
+        x=1381,
+        y=457 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0153104325092,
+        x=1370,
+        y=461 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.046665484047106,
+        x=1418,
+        y=425 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.024003471063923,
+        x=1435,
+        y=424 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0087198013745049,
+        x=1438,
+        y=423 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=0.037250297545997,
+        x=1103,
+        y=401 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.037964674281656,
+        x=1118,
+        y=424 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.03971160231524,
+        x=1105,
+        y=389 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.021622867962379,
+        x=1121,
+        y=386 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.048258542002238,
+        x=1098,
+        y=423 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.048732272609469,
+        x=1099,
+        y=443 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.01472131092762,
+        x=1497,
+        y=421 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.047232949347769,
+        x=1512,
+        y=489 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.035853826997409,
+        x=1515,
+        y=472 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.012614494283265,
+        x=1511,
+        y=461 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0055670744675648,
+        x=1514,
+        y=449 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.018902371205963,
+        x=1503,
+        y=445 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0078987123817241,
+        x=1500,
+        y=434 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.019262385040385,
+        x=965,
+        y=530 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.032107541556107,
+        x=981,
+        y=535 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.034213422720974,
+        x=991,
+        y=529 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.027750411298712,
+        x=997,
+        y=534 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0082200063727047,
+        x=998,
+        y=550 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.029147244889051,
+        x=986,
+        y=554 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.014359695612606,
+        x=1484,
+        y=625 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.014396907934705,
+        x=1498,
+        y=628 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.02570342187118,
+        x=1469,
+        y=627 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0022033665587363,
+        x=1453,
+        y=642 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.018980653705215,
+        x=1427,
+        y=643 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.036785390692255,
+        x=1387,
+        y=660 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.02302202620786,
+        x=1348,
+        y=660 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.0069072419526422,
+        x=1366,
+        y=643 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.0022861449177979,
+        x=1411,
+        y=625 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.0029766190882557,
+        x=1353,
+        y=658 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.045497152299168,
+        x=1390,
+        y=611 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.012039585321876,
+        x=1405,
+        y=604 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0086210352792134,
+        x=1404,
+        y=597 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=9.6075338327961e-05,
+        x=1443,
+        y=586 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0025665351578887,
+        x=1465,
+        y=578 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.041150071525204,
+        x=1497,
+        y=585 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0081634818867557,
+        x=1510,
+        y=613 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.039712668183836,
+        x=1364,
+        y=617 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.025131488993281,
+        x=1359,
+        y=618 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.044313194054325,
+        x=1458,
+        y=639 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.039524900997704,
+        x=1461,
+        y=582 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.019361929151612,
+        x=1438,
+        y=591 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.035117997794944,
+        x=1498,
+        y=593 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.012708306416547,
+        x=1321,
+        y=619 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.047218604209867,
+        x=1284,
+        y=642 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0075096784604495,
+        x=1198,
+        y=705 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.031982403006383,
+        x=1211,
+        y=706 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.032238402773041,
+        x=1217,
+        y=710 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.025568383015524,
+        x=1268,
+        y=688 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.047513818278762,
+        x=1272,
+        y=678 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.015004642045404,
+        x=1258,
+        y=693 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.011306024080725,
+        x=1239,
+        y=707 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0072172194501355,
+        x=1250,
+        y=700 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.039110047962381,
+        x=1193,
+        y=685 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.040669976129692,
+        x=1200,
+        y=695 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0089424312942862,
+        x=1190,
+        y=695 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.041129232835257,
+        x=1189,
+        y=675 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.032962835604826,
+        x=1184,
+        y=664 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.04976757050741,
+        x=1173,
+        y=664 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.027603333487117,
+        x=1178,
+        y=652 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.031281569894629,
+        x=1161,
+        y=664 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.04895435968253,
+        x=1165,
+        y=653 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.024953040814522,
+        x=1171,
+        y=642 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.019333402573402,
+        x=1228,
+        y=704 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.04594112391195,
+        x=1307,
+        y=657 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.038444047785386,
+        x=1259,
+        y=584 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.04238778900726,
+        x=1318,
+        y=600 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0092737629738664,
+        x=1296,
+        y=583 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.022444573186541,
+        x=1273,
+        y=665 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0024792847957342,
+        x=1156,
+        y=661 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0015649816805029,
+        x=1194,
+        y=710 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.043250833992645,
+        x=1226,
+        y=713 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.015749961307501,
+        x=1245,
+        y=688 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0048585849824846,
+        x=1239,
+        y=676 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.011407349243293,
+        x=1252,
+        y=677 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.039864999642398,
+        x=1257,
+        y=689 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.018419352159554,
+        x=1245,
+        y=665 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.023063399433442,
+        x=1264,
+        y=677 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.031998939875355,
+        x=1257,
+        y=666 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.03223854080191,
+        x=1269,
+        y=667 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.029935905558602,
+        x=1262,
+        y=656 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.038076847246172,
+        x=1216,
+        y=698 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0042825903914772,
+        x=1279,
+        y=665 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.045541216332329,
+        x=1238,
+        y=704 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.013635349905823,
+        x=1204,
+        y=702 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.034051346582302,
+        x=1201,
+        y=687 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.016107680203716,
+        x=1236,
+        y=689 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.0082558075331133,
+        x=1237,
+        y=668 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.046410366680458,
+        x=1190,
+        y=668 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.031935631193815,
+        x=1163,
+        y=644 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=0.034338054609592,
+        x=1215,
+        y=670 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.013920197728024,
+        x=1084,
+        y=674 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.025825808115729,
+        x=1099,
+        y=674 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.0073678223623732,
+        x=1115,
+        y=671 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.021720028040276,
+        x=982,
+        y=601 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.030973676467854,
+        x=985,
+        y=586 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.016075109763399,
+        x=1003,
+        y=664 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.015426867900295,
+        x=976,
+        y=612 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.0072526798830199,
+        x=1034,
+        y=642 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.0012074735586771,
+        x=1068,
+        y=663 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.037033385825286,
+        x=1027,
+        y=660 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.046634638966182,
+        x=975,
+        y=640 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.039066616088535,
+        x=882,
+        y=622 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.025614354585623,
+        x=940,
+        y=623 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=0.017031176486064,
+        x=910,
+        y=625 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.0076424992732705,
+        x=917,
+        y=642 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.014374625717083,
+        x=886,
+        y=642 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.037866350221021,
+        x=925,
+        y=619 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.021500522801213,
+        x=859,
+        y=632 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0074196443911692,
+        x=856,
+        y=625 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0075006747331186,
+        x=872,
+        y=604 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0006667803857376,
+        x=840,
+        y=598 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.043645174840121,
+        x=841,
+        y=586 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.033295397669512,
+        x=844,
+        y=592 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.022097810940695,
+        x=885,
+        y=593 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.010647974831933,
+        x=901,
+        y=645 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.048816377102057,
+        x=930,
+        y=640 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0074621190130381,
+        x=884,
+        y=649 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.011970994256376,
+        x=888,
+        y=618 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.00953668008268,
+        x=890,
+        y=618 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.015784949917659,
+        x=944,
+        y=529 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0084823561778312,
+        x=929,
+        y=541 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.028910839471687,
+        x=917,
+        y=552 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.027301656376898,
+        x=914,
+        y=540 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.0087709117883947,
+        x=915,
+        y=530 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.017175666274858,
+        x=939,
+        y=531 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.03642582019683,
+        x=935,
+        y=535 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.047096597395804,
+        x=905,
+        y=489 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=0.046053400348821,
+        x=885,
+        y=416 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.040580920822001,
+        x=895,
+        y=438 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0016441757767527,
+        x=902,
+        y=410 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.038899711149728,
+        x=816,
+        y=448 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.041558126700737,
+        x=830,
+        y=452 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.012692354304097,
+        x=805,
+        y=433 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.039546294826215,
+        x=796,
+        y=422 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.019293664690688,
+        x=863,
+        y=449 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.041499584376551,
+        x=808,
+        y=395 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.0016333188532684,
+        x=870,
+        y=438 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.022963252680036,
+        x=833,
+        y=450 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.028600356966354,
+        x=856,
+        y=394 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0047318655322983,
+        x=851,
+        y=392 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.039388454001603,
+        x=824,
+        y=391 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0057584518145091,
+        x=838,
+        y=387 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.024472111975087,
+        x=838,
+        y=470 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.049563131198347,
+        x=858,
+        y=463 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.042003694955238,
+        x=860,
+        y=470 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0032413510752342,
+        x=874,
+        y=485 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.033241631592428,
+        x=825,
+        y=486 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.0078936954512384,
+        x=781,
+        y=528 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0018848463433468,
+        x=797,
+        y=553 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0167027529836,
+        x=770,
+        y=548 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.034451552261277,
+        x=777,
+        y=485 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0018919546076503,
+        x=789,
+        y=489 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.034423854581102,
+        x=804,
+        y=487 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.028007168148255,
+        x=815,
+        y=479 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.034257918524962,
+        x=795,
+        y=500 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.0058806810326031,
+        x=961,
+        y=622 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0024634680247845,
+        x=442,
+        y=379 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.036327863045125,
+        x=453,
+        y=379 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.016373210032032,
+        x=442,
+        y=390 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.025671618129416,
+        x=454,
+        y=389 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0058809905303943,
+        x=448,
+        y=400 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.037973756485148,
+        x=436,
+        y=401 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.04056547649648,
+        x=459,
+        y=400 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0027291813217473,
+        x=443,
+        y=412 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.031805354226779,
+        x=455,
+        y=410 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.041000910486323,
+        x=448,
+        y=422 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0079547516771244,
+        x=435,
+        y=425 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.029965445872052,
+        x=461,
+        y=421 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.041390665968803,
+        x=467,
+        y=430 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.029612121288762,
+        x=441,
+        y=433 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.014323899476692,
+        x=505,
+        y=424 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.03969822308644,
+        x=514,
+        y=411 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.034417691014034,
+        x=528,
+        y=405 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0053642385702059,
+        x=539,
+        y=411 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.014298335069414,
+        x=552,
+        y=404 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.036607340623527,
+        x=445,
+        y=530 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.047030136551285,
+        x=473,
+        y=535 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0023033339628555,
+        x=464,
+        y=530 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.027226313269936,
+        x=480,
+        y=522 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.0099200734026943,
+        x=417,
+        y=513 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.013876302757251,
+        x=525,
+        y=497 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.04179972584143,
+        x=507,
+        y=515 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.035144568392851,
+        x=473,
+        y=438 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.005500561871636,
+        x=432,
+        y=451 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0032171941692167,
+        x=393,
+        y=458 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.024489732311246,
+        x=502,
+        y=441 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0018420713376717,
+        x=473,
+        y=439 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.014389928256921,
+        x=395,
+        y=497 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=0.026543345649973,
+        x=493,
+        y=497 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.00029909218480351,
+        x=554,
+        y=513 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.028354476828392,
+        x=546,
+        y=416 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.0011603496759909,
+        x=430,
+        y=523 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.037157092938662,
+        x=513,
+        y=506 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.046123960398615,
+        x=388,
+        y=514 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.0024482521197647,
+        x=451,
+        y=529 
+      },
+      { __index=nil }
+    ),
+    setmetatable({ image=4, rotation=0.0355181834914, x=537, y=503 },{ __index=nil }),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.026892091153847,
+        x=632,
+        y=456 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.034354248767358,
+        x=616,
+        y=426 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.029503094524293,
+        x=680,
+        y=426 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.013962797017741,
+        x=663,
+        y=456 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=0.0036490465052675,
+        x=664,
+        y=514 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.025963471220587,
+        x=701,
+        y=546 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.034605138070838,
+        x=716,
+        y=547 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.028408516781777,
+        x=691,
+        y=546 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.048725240990799,
+        x=694,
+        y=534 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.021154410520581,
+        x=683,
+        y=535 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.049043788980459,
+        x=746,
+        y=475 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.018802411193844,
+        x=701,
+        y=437 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.00099547745197761,
+        x=730,
+        y=441 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.012472172939628,
+        x=741,
+        y=453 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.014572998225051,
+        x=716,
+        y=439 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.018475338394622,
+        x=705,
+        y=432 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.02405906176752,
+        x=648,
+        y=453 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.033955223648461,
+        x=622,
+        y=515 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.025804688939835,
+        x=608,
+        y=514 
+      },
+      { __index=nil }
+    ),
+    setmetatable({ image=4, rotation=-0.01174583424, x=653, y=529 },{ __index=nil }),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.013351768209844,
+        x=669,
+        y=536 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.024149754749278,
+        x=735,
+        y=551 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.018705434545629,
+        x=623,
+        y=446 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0027436836678931,
+        x=693,
+        y=428 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.044479272514967,
+        x=584,
+        y=497 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.028764791671356,
+        x=596,
+        y=413 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.023200544015672,
+        x=582,
+        y=407 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.048512029524025,
+        x=564,
+        y=409 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.034960438613697,
+        x=576,
+        y=404 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.032883316946433,
+        x=617,
+        y=432 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.042487568309004,
+        x=640,
+        y=527 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.014643078328143,
+        x=356,
+        y=514 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.043092766810236,
+        x=341,
+        y=520 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.047682144033118,
+        x=364,
+        y=512 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0089041122506748,
+        x=346,
+        y=472 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.025911647301087,
+        x=325,
+        y=458 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.020931657131378,
+        x=319,
+        y=458 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.014131675094387,
+        x=281,
+        y=456 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.017380508727468,
+        x=235,
+        y=479 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.043960237380294,
+        x=256,
+        y=414 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.031529049595217,
+        x=338,
+        y=433 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.0017158091716386,
+        x=258,
+        y=509 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.045037156003289,
+        x=268,
+        y=530 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.0014010216317902,
+        x=304,
+        y=530 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.04483680458069,
+        x=226,
+        y=496 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.031871370585971,
+        x=239,
+        y=497 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0088376609229797,
+        x=332,
+        y=531 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.025700652410868,
+        x=350,
+        y=522 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0063211620924171,
+        x=264,
+        y=457 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.038298043258166,
+        x=230,
+        y=474 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.044800014629349,
+        x=243,
+        y=473 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0033934268374049,
+        x=223,
+        y=469 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.043795917800234,
+        x=278,
+        y=395 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.033691173661834,
+        x=345,
+        y=395 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.049981271657335,
+        x=349,
+        y=514 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.027185194068065,
+        x=366,
+        y=471 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.048598455778832,
+        x=258,
+        y=465 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.020914455310366,
+        x=256,
+        y=469 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.037441133870328,
+        x=199,
+        y=471 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.030270940441482,
+        x=287,
+        y=513 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.025234644872397,
+        x=303,
+        y=398 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.043560753422042,
+        x=317,
+        y=435 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.00097848596351928,
+        x=273,
+        y=434 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.010095768438292,
+        x=287,
+        y=435 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0042591935041234,
+        x=267,
+        y=440 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.017809533886003,
+        x=319,
+        y=532 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.042421259122909,
+        x=199,
+        y=512 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0048695235366251,
+        x=298,
+        y=454 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0030618619320686,
+        x=313,
+        y=450 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0078958600563147,
+        x=215,
+        y=448 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0010857881403115,
+        x=229,
+        y=448 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.037458441070187,
+        x=240,
+        y=449 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.040191853738468,
+        x=235,
+        y=437 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0402774389399,
+        x=233,
+        y=404 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.032843467086712,
+        x=223,
+        y=401 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=0.021572206241049,
+        x=194,
+        y=416 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.041852008588243,
+        x=308,
+        y=394 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0053632577923141,
+        x=300,
+        y=391 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0017885129941446,
+        x=296,
+        y=425 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.024381530333402,
+        x=305,
+        y=426 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.029124653092086,
+        x=193,
+        y=518 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.026091109655538,
+        x=340,
+        y=467 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.034076023533516,
+        x=136,
+        y=477 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.044333483484738,
+        x=146,
+        y=415 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.025694099330702,
+        x=133,
+        y=506 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.03508150237843,
+        x=70,
+        y=469 
+      },
+      { __index=nil }
+    ),
+    setmetatable({ image=7, rotation=0.04131062628176, x=80, y=528 },{ __index=nil }),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.037068074881324,
+        x=154,
+        y=467 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.035854526398413,
+        x=167,
+        y=475 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.011353903929046,
+        x=175,
+        y=468 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.0061715987800323,
+        x=121,
+        y=460 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.023869561954448,
+        x=130,
+        y=441 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.010302163572851,
+        x=153,
+        y=433 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.048816892581883,
+        x=143,
+        y=408 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.046617438433053,
+        x=166,
+        y=394 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.033467779091097,
+        x=121,
+        y=410 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.023373430333674,
+        x=106,
+        y=519 
+      },
+      { __index=nil }
+    ),
+    setmetatable({ image=6, rotation=0.02038682736283, x=79, y=519 },{ __index=nil }),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.040086173421376,
+        x=95,
+        y=465 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0089937174991669,
+        x=94,
+        y=437 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.039008016137959,
+        x=81,
+        y=444 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.037549051105513,
+        x=45,
+        y=546 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.029755433540736,
+        x=59,
+        y=547 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0042516073920486,
+        x=39,
+        y=536 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.047417253361544,
+        x=42,
+        y=487 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.014133597996749,
+        x=48,
+        y=475 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.015643819987945,
+        x=47,
+        y=541 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.040713324950358,
+        x=87,
+        y=548 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.015705904033905,
+        x=76,
+        y=498 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.041048665308131,
+        x=162,
+        y=513 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.031454296301607,
+        x=173,
+        y=519 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.0030402481683009,
+        x=119,
+        y=497 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.015649981483268,
+        x=114,
+        y=500 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.02331948311707,
+        x=38,
+        y=523 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.030107601458728,
+        x=184,
+        y=390 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0019638869113857,
+        x=198,
+        y=388 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.015568801367959,
+        x=212,
+        y=393 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.019911421990101,
+        x=138,
+        y=532 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.00097435443066682,
+        x=157,
+        y=535 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.042223570265388,
+        x=164,
+        y=545 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.017905154359802,
+        x=165,
+        y=553 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0020522025224176,
+        x=125,
+        y=530 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.033585013271388,
+        x=118,
+        y=525 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.028436238407857,
+        x=50,
+        y=655 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.01590316673348,
+        x=81,
+        y=655 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.037553496432664,
+        x=120,
+        y=658 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.046944310561076,
+        x=105,
+        y=660 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.0048799576209402,
+        x=73,
+        y=676 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.038361320359232,
+        x=32,
+        y=717 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.039022795292571,
+        x=59,
+        y=673 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.04605055534236,
+        x=133,
+        y=662 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.014714058070948,
+        x=106,
+        y=598 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.0031510179065657,
+        x=169,
+        y=583 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.011937229626709,
+        x=107,
+        y=602 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.018693998176008,
+        x=102,
+        y=647 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.020332442211295,
+        x=133,
+        y=619 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.00041010232068428,
+        x=133,
+        y=594 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.043703502640705,
+        x=119,
+        y=598 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.014550009986289,
+        x=10,
+        y=707 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.026145771574349,
+        x=6,
+        y=680 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.020191411516321,
+        x=11,
+        y=661 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=0.021535205505483,
+        x=48,
+        y=721 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0098155947719589,
+        x=65,
+        y=751 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.0041208257108451,
+        x=57,
+        y=698 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.041746755303809,
+        x=39,
+        y=686 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.038016735395448,
+        x=41,
+        y=691 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.0013684943115768,
+        x=44,
+        y=696 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.021746063055966,
+        x=31,
+        y=649 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.041176420524639,
+        x=66,
+        y=642 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0039236460064281,
+        x=76,
+        y=646 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.031080585073545,
+        x=87,
+        y=643 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.013937301249318,
+        x=124,
+        y=701 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.020758194099489,
+        x=138,
+        y=696 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.047500830655653,
+        x=152,
+        y=699 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.023053055944104,
+        x=168,
+        y=707 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0039828276644855,
+        x=171,
+        y=720 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.010208829030458,
+        x=161,
+        y=709 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.033049503008807,
+        x=131,
+        y=707 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0079738468357039,
+        x=113,
+        y=708 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.031172688185191,
+        x=93,
+        y=706 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.040335298713983,
+        x=79,
+        y=712 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.037774891581335,
+        x=104,
+        y=713 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.039968833240695,
+        x=86,
+        y=716 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.044609179757704,
+        x=177,
+        y=734 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.046622808799406,
+        x=81,
+        y=895 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.028604140821268,
+        x=109,
+        y=895 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.013983370650044,
+        x=82,
+        y=881 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0074366892731367,
+        x=109,
+        y=880 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.037996263904548,
+        x=95,
+        y=880 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.013693306418931,
+        x=102,
+        y=880 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.017048867939207,
+        x=80,
+        y=831 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.0018354417579109,
+        x=108,
+        y=830 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.017724882366234,
+        x=81,
+        y=859 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.028191135812015,
+        x=109,
+        y=859 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.00063840454816575,
+        x=95,
+        y=859 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.042245147440362,
+        x=89,
+        y=859 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.016005218165744,
+        x=100,
+        y=860 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.022520284144879,
+        x=104,
+        y=869 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0032479178223672,
+        x=87,
+        y=870 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.020721869574988,
+        x=95,
+        y=870 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.01879071860114,
+        x=77,
+        y=874 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.013602522203465,
+        x=109,
+        y=876 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.020748521754827,
+        x=102,
+        y=891 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.03934983359237,
+        x=112,
+        y=853 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.00039800983509293,
+        x=85,
+        y=916 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.046599363632072,
+        x=106,
+        y=939 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.043127825105214,
+        x=106,
+        y=916 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.022849688265562,
+        x=89,
+        y=848 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.02369788499777,
+        x=88,
+        y=851 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.038477147451466,
+        x=86,
+        y=828 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.02338629388898,
+        x=102,
+        y=826 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0019498730641204,
+        x=76,
+        y=823 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.027822313539584,
+        x=113,
+        y=831 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.030646046351306,
+        x=116,
+        y=826 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.047050702287908,
+        x=78,
+        y=823 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.018557816460061,
+        x=104,
+        y=825 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.023803090595607,
+        x=76,
+        y=919 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.032351244047203,
+        x=69,
+        y=934 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.011358496178676,
+        x=122,
+        y=934 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.035167862456012,
+        x=54,
+        y=931 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.019613218882079,
+        x=139,
+        y=929 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.011787707008804,
+        x=39,
+        y=931 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.018071363862464,
+        x=33,
+        y=919 
+      },
+      { __index=nil }
+    ),
+    setmetatable({ image=2, rotation=0.02365062549668, x=21, y=919 },{ __index=nil }),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0020979466444881,
+        x=57,
+        y=825 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.010126318219393,
+        x=45,
+        y=834 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.043939584829552,
+        x=149,
+        y=849 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.033473416160135,
+        x=164,
+        y=849 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.034077890808869,
+        x=139,
+        y=803 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.02883207233763,
+        x=151,
+        y=823 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.035136215298792,
+        x=114,
+        y=787 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.037996221074205,
+        x=121,
+        y=791 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.018386200812079,
+        x=94,
+        y=768 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.015386274493447,
+        x=153,
+        y=874 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.021564164040856,
+        x=161,
+        y=878 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.0076326815256572,
+        x=155,
+        y=877 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=8,
+        rotation=-0.0086755082878728,
+        x=175,
+        y=897 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.011644465295316,
+        x=140,
+        y=852 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.023138529348437,
+        x=173,
+        y=853 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.023890826890207,
+        x=27,
+        y=872 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.039347597991534,
+        x=37,
+        y=861 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.040227969134012,
+        x=22,
+        y=889 
+      },
+      { __index=nil }
+    ),
+    setmetatable({ image=6, rotation=0.02118603716273, x=25, y=881 },{ __index=nil }),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.030340552214932,
+        x=39,
+        y=862 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.049377816198431,
+        x=39,
+        y=842 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=0.048031145515309,
+        x=52,
+        y=834 
+      },
+      { __index=nil }
     ) 
   },
-  hue=57,
-  sat=0.50564114144694,
-  val=0.37529091319484 
+  hue=324,
+  sat=0.26666352344873,
+  val=0.85842950026157 
 }
 getmetatable(t.decoration[2]).__index = getmetatable(t.decoration[1]).__index
 getmetatable(t.decoration[3]).__index = getmetatable(t.decoration[1]).__index
@@ -2777,4 +8453,624 @@ getmetatable(t.decoration[271]).__index = getmetatable(t.decoration[260]).__inde
 getmetatable(t.decoration[272]).__index = getmetatable(t.decoration[260]).__index
 getmetatable(t.decoration[273]).__index = getmetatable(t.decoration[260]).__index
 getmetatable(t.decoration[274]).__index = getmetatable(t.decoration[260]).__index
+getmetatable(t.decoration[276]).__index = getmetatable(t.decoration[275]).__index
+getmetatable(t.decoration[278]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[279]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[280]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[281]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[282]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[283]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[284]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[285]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[286]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[287]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[288]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[289]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[290]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[291]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[292]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[293]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[294]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[295]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[296]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[297]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[298]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[299]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[300]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[301]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[302]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[303]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[304]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[305]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[306]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[307]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[308]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[309]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[310]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[311]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[312]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[313]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[314]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[315]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[316]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[317]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[318]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[319]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[320]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[321]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[322]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[323]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[324]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[325]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[326]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[327]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[328]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[329]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[330]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[331]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[332]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[333]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[334]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[335]).__index = getmetatable(t.decoration[277]).__index
+getmetatable(t.decoration[337]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[338]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[339]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[340]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[341]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[342]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[343]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[344]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[345]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[346]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[347]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[348]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[349]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[350]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[351]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[352]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[353]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[354]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[355]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[356]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[357]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[358]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[359]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[360]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[361]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[362]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[363]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[364]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[365]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[366]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[367]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[368]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[369]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[370]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[371]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[372]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[373]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[374]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[375]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[376]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[377]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[378]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[379]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[380]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[381]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[382]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[383]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[384]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[385]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[386]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[387]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[388]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[389]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[390]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[391]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[392]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[393]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[394]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[395]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[396]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[397]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[398]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[399]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[400]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[401]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[402]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[403]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[404]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[405]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[406]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[407]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[408]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[409]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[410]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[411]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[412]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[413]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[414]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[415]).__index = getmetatable(t.decoration[336]).__index
+getmetatable(t.decoration[417]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[418]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[419]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[420]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[421]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[422]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[423]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[424]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[425]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[426]).__index = getmetatable(t.decoration[416]).__index
+getmetatable(t.decoration[428]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[429]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[430]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[431]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[432]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[433]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[434]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[435]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[436]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[437]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[438]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[439]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[440]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[441]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[442]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[443]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[444]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[445]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[446]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[447]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[448]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[449]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[450]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[451]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[452]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[453]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[454]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[455]).__index = getmetatable(t.decoration[427]).__index
+getmetatable(t.decoration[457]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[458]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[459]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[460]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[461]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[462]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[463]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[464]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[465]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[466]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[467]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[468]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[469]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[470]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[471]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[472]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[473]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[474]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[475]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[476]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[477]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[478]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[479]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[480]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[481]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[482]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[483]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[484]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[485]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[486]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[487]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[488]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[489]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[490]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[491]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[492]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[493]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[494]).__index = getmetatable(t.decoration[456]).__index
+getmetatable(t.decoration[496]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[497]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[498]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[499]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[500]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[501]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[502]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[503]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[504]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[505]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[506]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[507]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[508]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[509]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[510]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[511]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[512]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[513]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[514]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[515]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[516]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[517]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[518]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[519]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[520]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[521]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[522]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[523]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[524]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[525]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[526]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[527]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[528]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[529]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[530]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[531]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[532]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[533]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[534]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[535]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[536]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[537]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[538]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[539]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[540]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[541]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[542]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[543]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[544]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[545]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[546]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[547]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[548]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[549]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[550]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[551]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[552]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[553]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[554]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[555]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[556]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[557]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[558]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[559]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[560]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[561]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[562]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[563]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[564]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[565]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[566]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[567]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[568]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[569]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[570]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[571]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[572]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[573]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[574]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[575]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[576]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[577]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[578]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[579]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[580]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[581]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[582]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[583]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[584]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[585]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[586]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[587]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[588]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[589]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[590]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[591]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[592]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[593]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[594]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[595]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[596]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[597]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[598]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[599]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[600]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[601]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[602]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[603]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[604]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[605]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[606]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[607]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[608]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[609]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[610]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[611]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[612]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[613]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[614]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[615]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[616]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[617]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[618]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[619]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[620]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[621]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[622]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[623]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[624]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[625]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[626]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[627]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[628]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[629]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[630]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[631]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[632]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[633]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[634]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[635]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[636]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[637]).__index = getmetatable(t.decoration[495]).__index
+getmetatable(t.decoration[639]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[640]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[641]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[642]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[643]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[644]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[645]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[646]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[647]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[648]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[649]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[650]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[651]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[652]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[653]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[654]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[655]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[656]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[657]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[658]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[659]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[660]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[661]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[662]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[663]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[664]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[665]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[666]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[667]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[668]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[669]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[670]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[671]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[672]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[673]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[674]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[675]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[676]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[677]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[678]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[679]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[680]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[681]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[682]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[683]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[684]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[685]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[686]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[687]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[688]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[689]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[690]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[691]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[692]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[693]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[694]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[695]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[696]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[697]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[698]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[699]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[700]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[701]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[702]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[703]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[704]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[705]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[706]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[707]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[708]).__index = getmetatable(t.decoration[638]).__index
+getmetatable(t.decoration[710]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[711]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[712]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[713]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[714]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[715]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[716]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[717]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[718]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[719]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[720]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[721]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[722]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[723]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[724]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[725]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[726]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[727]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[728]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[729]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[730]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[731]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[732]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[733]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[734]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[735]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[736]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[737]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[738]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[739]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[740]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[741]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[742]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[743]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[744]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[745]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[746]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[747]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[748]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[749]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[750]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[751]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[752]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[753]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[754]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[755]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[756]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[757]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[758]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[759]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[760]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[761]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[762]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[763]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[764]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[765]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[766]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[767]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[768]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[769]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[770]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[771]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[772]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[773]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[774]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[775]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[776]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[777]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[778]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[779]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[780]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[781]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[782]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[783]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[784]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[785]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[786]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[787]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[788]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[789]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[790]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[791]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[792]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[793]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[794]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[795]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[796]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[797]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[798]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[799]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[800]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[801]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[802]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[803]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[804]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[805]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[806]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[807]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[808]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[809]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[810]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[811]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[812]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[813]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[814]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[815]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[816]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[817]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[818]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[819]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[820]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[821]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[822]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[823]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[824]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[825]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[826]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[827]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[828]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[829]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[830]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[831]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[832]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[833]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[834]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[835]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[836]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[837]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[838]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[839]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[840]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[841]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[842]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[843]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[844]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[845]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[846]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[847]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[848]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[849]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[850]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[851]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[852]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[853]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[854]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[855]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[856]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[857]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[858]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[859]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[860]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[861]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[862]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[863]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[864]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[865]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[866]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[867]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[868]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[869]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[870]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[871]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[872]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[873]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[874]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[875]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[876]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[877]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[878]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[879]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[880]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[881]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[882]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[883]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[884]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[885]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[886]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[887]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[888]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[889]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[890]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[891]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[892]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[893]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[894]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[895]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[896]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[897]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[898]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[899]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[900]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[901]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[902]).__index = getmetatable(t.decoration[709]).__index
+getmetatable(t.decoration[903]).__index = getmetatable(t.decoration[709]).__index
 return t
