@@ -1,11 +1,23 @@
 local state = gstate.new()
 
 
+function targetHSV(h,s,v)
+	thue = h
+	tsat = s
+	tval = v
+end
+
+colorSpeed = 0.2
+
+
 function state:init()
 	dascween = love.graphics.newCanvas(256,256)
 	dascween:setFilter("nearest","nearest")
 	vig = love.graphics.newImage("images/vig.png")
 	unsaved = false
+	thue = GLOBAL.hue
+	tsat = GLOBAL.sat
+	tval = GLOBAL.val
 	--GLOBAL.mode = "edit"
 end
 
@@ -86,8 +98,9 @@ end
 
 function state:keypressed(key, uni)
 	if key=="h" and GLOBAL.mode=="edit" then
-		GLOBAL.makeColour()
-		levelscreen.getGlobalHSV()
+		--GLOBAL.makeColour()
+		--levelscreen.getGlobalHSV()
+		targetHSV(math.random(0,360),math.random(),math.random())
 	end
 	if key=="escape" then
 		love.event.push("quit")
@@ -136,6 +149,10 @@ function state:update(dt)
 	player.update(dt)
 	hotspot.update(dt)
 	sparkle.update(dt)
+	GLOBAL.hue = GLOBAL.hue + (thue-GLOBAL.hue)*dt*colorSpeed
+	GLOBAL.sat = GLOBAL.sat + (tsat-GLOBAL.sat)*dt*colorSpeed
+	GLOBAL.val = GLOBAL.val + (tval-GLOBAL.val)*dt*colorSpeed
+	GLOBAL.makeColour(GLOBAL.hue, GLOBAL.sat, GLOBAL.val)
 end
 
 

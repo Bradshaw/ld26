@@ -42,6 +42,7 @@ function levelscreen.new(name, levelname)
 	self.hue = self.hue or GLOBAL.hue
 	self.sat = self.sat or GLOBAL.sat
 	self.val = self.val or GLOBAL.val
+	targetHSV(self.hue,self.sat,self.val)
 	GLOBAL.makeColour(self.hue, self.sat, self.val)
 	return self
 end

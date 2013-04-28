@@ -84,9 +84,14 @@ function player.update(dt)
 		end
 
 		if	love.keyboard.isDown("up","z"," ","w") and player.grounded then
-			player.dy = -200
-			player.y = player.y-3
-			player.grounded = false
+			if player.dy>250 then
+				player.x = player.lastpos.x
+				player.y = player.lastpos.y
+			else
+				player.dy = -200
+				player.y = player.y-3
+				player.grounded = false
+			end
 		end
 		if not grounded then
 			player.airtime = player.airtime+dt
