@@ -1,7 +1,7 @@
 local sparkle_mt = {}
 sparkle = {}
 
-sparkle.max = 200
+sparkle.max = 300
 sparkle.maxage = 5
 
 sparkle.all = {}
@@ -25,7 +25,6 @@ end
 function sparkle.update(dt)
 	if #sparkle.all > sparkle.max then
 		for i=1,#sparkle.all-sparkle.max do
-			print("killed a fucker")
 			sparkle.all[i].purge = true
 		end
 	end
@@ -46,8 +45,8 @@ function sparkle.impulse(x,y)
 		local dx = x-v.x
 		local dy = y-v.y
 		local l = math.sqrt(dx*dx+dy*dy)
-		v.dx = -dx/l*100
-		v.dy = -dy/l*100
+		v.dx = -dx/l*math.random(80,120)
+		v.dy = -dy/l*math.random(80,120)
 	end
 end
 
@@ -108,4 +107,16 @@ function sparkle.cheat(source,aim)
 		sp.target = {x=player.x,y=player.y-6}
 	end
 	sp.source = source
+end
+
+function sparkle.box(x,y,w,h,n)
+	for i=1,n do
+		sparkle.new(
+		math.random(x,x+w),
+		math.random(y,y+h),
+		math.random(-10,10),
+		math.random(-50,-15)/2,
+		0.5,
+		100)
+	end
 end

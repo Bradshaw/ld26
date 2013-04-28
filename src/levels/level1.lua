@@ -1,9 +1,3 @@
-local closures = {}
-local function closure(t) 
-  closures[#closures+1] = t
-  t[1] = assert(loadstring(t[1]))
-  return t[1]
-end
 local t = {
   decoration={
     setmetatable(
@@ -9136,16 +9130,438 @@ image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3
           update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
         } 
       }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=-0.028567383244098,
+        x=288,
+        y=112 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.033377765485821,
+        x=209,
+        y=111 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.00028251899237854,
+        x=232,
+        y=111 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=0.037701040150413,
+        x=263,
+        y=111 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.041095822948761,
+        x=232,
+        y=139 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0026951153575648,
+        x=233,
+        y=149 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.00087552082920319,
+        x=262,
+        y=140 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.042213766088666,
+        x=262,
+        y=151 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0072973486186638,
+        x=247,
+        y=145 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.046668944844661,
+        x=259,
+        y=145 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.013659980585136,
+        x=236,
+        y=145 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0018486367415469,
+        x=232,
+        y=96 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.028448921889059,
+        x=263,
+        y=96 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.027948303867725,
+        x=262,
+        y=85 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0060261544001067,
+        x=232,
+        y=85 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.023372175950598,
+        x=239,
+        y=90 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.021356016073369,
+        x=254,
+        y=90 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.024881314462451,
+        x=247,
+        y=91 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=0.0059555363784897,
+        x=239,
+        y=135 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.042841630774925,
+        x=249,
+        y=135 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.048452777659769,
+        x=244,
+        y=97 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.025749991128702,
+        x=255,
+        y=99 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.034351350695957,
+        x=224,
+        y=103 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=6,
+        rotation=-0.044093354666042,
+        x=268,
+        y=101 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.022241522363515,
+        x=293,
+        y=103 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.045696475298327,
+        x=311,
+        y=148 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.0033519155753557,
+        x=324,
+        y=147 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=3,
+        rotation=-0.018215451264694,
+        x=339,
+        y=162 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=0.03759940046137,
+        x=355,
+        y=160 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.044148510244323,
+        x=344,
+        y=139 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.028273282378464,
+        x=322,
+        y=127 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=-0.04792460771765,
+        x=277,
+        y=139 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=5,
+        rotation=0.023742705106923,
+        x=218,
+        y=139 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.029799924904827,
+        x=404,
+        y=173 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.038260897361519,
+        x=401,
+        y=179 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.0026333601656289,
+        x=405,
+        y=178 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.015940264935446,
+        x=818,
+        y=335 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.049585273771818,
+        x=819,
+        y=320 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.047884152499282,
+        x=813,
+        y=310 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.020774638135827,
+        x=825,
+        y=310 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=7,
+        rotation=0.0078759958475717,
+        x=844,
+        y=336 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=1,
+        rotation=-0.0027836841510066,
+        x=888,
+        y=336 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.034096674606846,
+        x=888,
+        y=321 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.031810473886002,
+        x=900,
+        y=320 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=4,
+        rotation=-0.026620066236308,
+        x=890,
+        y=309 
+      },
+      { __index=nil }
     ) 
   },
   hotspot={
     setmetatable(
       {
         id=1,
-        update=closure {
-          "\27LJ\1\0\25@levels/level1hotspot.luaµ\1\0\1\6\1\4\0\0252\4\0077\1\0\0004\2\1\0007\2\0\2\31\1\2\0017\2\2\0004\3\1\0007\3\2\3\31\2\3\2 \3\1\1 \4\2\2\30\3\4\3+\4\0\0+\5\0\0 \4\5\4\1\3\4\0T\3\8€4\3\1\0007\3\3\0037\4\0\0:\4\0\0034\3\1\0007\3\3\0037\4\2\0:\4\2\3G\0\1\0\0À\12lastpos\6y\11player\6x\1\1\1\1\2\2\2\2\3\3\3\3\3\3\3\3\4\4\4\4\5\5\5\5\7saveDist\0hs\0\0\26dx\0\5\21dy\0\4\17\0\0",
-          20 
-        },
         x=280,
         y=317 
       },
@@ -9160,29 +9576,15 @@ print\6y\6x\9line\11circle\13graphics\9love\9edit\9mode\11GLOBAL\
         } 
       }
     ),
-    setmetatable({ id=2, update=nil, x=414, y=302 },{ __index=nil }),
-    setmetatable({ id=3, update=nil, x=511, y=318 },{ __index=nil }),
-    setmetatable({ id=4, update=nil, x=512, y=221 },{ __index=nil }),
-    setmetatable({ id=5, update=nil, x=1133, y=429 },{ __index=nil }),
-    setmetatable({ id=6, update=nil, x=982, y=543 },{ __index=nil }),
-    setmetatable(
-      {
-        id=7,
-        x=102,
-        y=923 
-      },
-      {
-        __index={
-          draw=loadstring("\27LJ\1\0\12@hotspot.lua¹\1\0\1\6\0\11\1\22\30\31\0054\1\0\0007\1\1\1\7\1\2\0T\1\17€4\1\3\0007\1\4\0017\1\5\1%\2\6\0007\3\7\0007\4\8\0'\5\
-\0>\1\5\0014\1\3\0007\1\4\0017\1\9\0017\2\
-\0007\3\7\0\21\3\0\0037\4\8\0\21\4\0\4>\1\4\1G\0\1\0\7id\
-print\6y\6x\9line\11circle\13graphics\9love\9edit\9mode\11GLOBAL\
-\1\1\1\1\2\2\2\2\2\2\2\2\3\3\3\3\3\3\3\3\3\5self\0\0\23\0\0"),
-          update=loadstring("\27LJ\1\0\12@hotspot.lua\28\0\2\2\0\0\0\1\14\21\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
-        } 
-      }
-    ),
-    setmetatable({ id=8, x=672, y=871 },{ __index=nil }) 
+    setmetatable({ id=2, x=414, y=302 },{ __index=nil }),
+    setmetatable({ id=3, x=511, y=318 },{ __index=nil }),
+    setmetatable({ id=4, x=512, y=221 },{ __index=nil }),
+    setmetatable({ id=5, x=1133, y=429 },{ __index=nil }),
+    setmetatable({ id=6, x=982, y=543 },{ __index=nil }),
+    setmetatable({ id=7, x=102, y=923 },{ __index=nil }),
+    setmetatable({ id=8, x=672, y=879 },{ __index=nil }),
+    setmetatable({ id=9, x=256, y=160 },{ __index=nil }),
+    setmetatable({ id=10, x=875, y=367 },{ __index=nil }) 
   },
   hue=123,
   sat=0.04804485106968,
@@ -10177,20 +10579,55 @@ getmetatable(t.decoration[1003]).__index = getmetatable(t.decoration[904]).__ind
 getmetatable(t.decoration[1004]).__index = getmetatable(t.decoration[904]).__index
 getmetatable(t.decoration[1005]).__index = getmetatable(t.decoration[904]).__index
 getmetatable(t.decoration[1006]).__index = getmetatable(t.decoration[904]).__index
+getmetatable(t.decoration[1009]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1010]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1011]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1012]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1013]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1014]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1015]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1016]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1017]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1018]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1019]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1020]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1021]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1022]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1023]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1024]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1025]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1026]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1027]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1028]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1029]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1030]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1031]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1032]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1033]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1034]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1035]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1036]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1037]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1038]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1039]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1040]).__index = getmetatable(t.decoration[1008]).__index
+getmetatable(t.decoration[1042]).__index = getmetatable(t.decoration[1041]).__index
+getmetatable(t.decoration[1043]).__index = getmetatable(t.decoration[1041]).__index
+getmetatable(t.decoration[1045]).__index = getmetatable(t.decoration[1044]).__index
+getmetatable(t.decoration[1046]).__index = getmetatable(t.decoration[1044]).__index
+getmetatable(t.decoration[1047]).__index = getmetatable(t.decoration[1044]).__index
+getmetatable(t.decoration[1048]).__index = getmetatable(t.decoration[1044]).__index
+getmetatable(t.decoration[1049]).__index = getmetatable(t.decoration[1044]).__index
+getmetatable(t.decoration[1050]).__index = getmetatable(t.decoration[1044]).__index
+getmetatable(t.decoration[1051]).__index = getmetatable(t.decoration[1044]).__index
+getmetatable(t.decoration[1052]).__index = getmetatable(t.decoration[1044]).__index
 getmetatable(t.hotspot[2]).__index = getmetatable(t.hotspot[1]).__index
-t.hotspot[2].update = t.hotspot[1].update
 getmetatable(t.hotspot[3]).__index = getmetatable(t.hotspot[1]).__index
-t.hotspot[3].update = t.hotspot[1].update
 getmetatable(t.hotspot[4]).__index = getmetatable(t.hotspot[1]).__index
-t.hotspot[4].update = t.hotspot[1].update
 getmetatable(t.hotspot[5]).__index = getmetatable(t.hotspot[1]).__index
-t.hotspot[5].update = t.hotspot[1].update
 getmetatable(t.hotspot[6]).__index = getmetatable(t.hotspot[1]).__index
-t.hotspot[6].update = t.hotspot[1].update
-getmetatable(t.hotspot[8]).__index = getmetatable(t.hotspot[7]).__index
-for _,t in pairs(closures) do
-  for i = 2,#t do 
-    debug.setupvalue(t[1], i-1, t[i]) 
-  end 
-end
+getmetatable(t.hotspot[7]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[8]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[9]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[10]).__index = getmetatable(t.hotspot[1]).__index
 return t

@@ -86,6 +86,15 @@ function levelscreen.toLuaScript(filename)
 end
 
 function levelscreen_mt:toLuaScript( filename )
+	self.hotspot = {}
+	for i,v in ipairs(hotspot.all) do
+		self.hotspot[i] = setmetatable({
+			x = v.x,
+			y = v.y,
+			id = v.id
+		},{__index=hotspot_mt})
+
+	end
 	filer.toFile("levels/"..filename..".lua", {decoration = self.decoration, hue = self.hue, sat = self.sat, val = self.val, hotspot=self.hotspot})
 end
 
@@ -144,6 +153,7 @@ function levelscreen_mt:draw()
 end
 
 function levelscreen.tweak(x,y,dir)
+	print(math.floor(x/16),math.floor(y/16))
 	levelscreen.getPixel(x,y):tweak(dir)
 end
 

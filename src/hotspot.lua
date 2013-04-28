@@ -1,4 +1,4 @@
-local hotspot_mt = {}
+hotspot_mt = {}
 hotspot = {}
 
 hotspot.all = {}
