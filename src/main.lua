@@ -4,6 +4,7 @@ function love.load(arg)
 	require("useful")
 	gstate = require "gamestate"
 	game = require("game")
+	require("hotspot")
 	require("levelscreen")
 	require("tile")
 	require("player")

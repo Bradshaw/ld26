@@ -1,5 +1,6 @@
 require("tile")
 require("filer")
+require("hotspot")
 
 local levelscreen_mt = {}
 
@@ -17,6 +18,13 @@ function levelscreen.new(name, levelname)
 	local self = {}
 	if love.filesystem.exists("levels/"..levelname..".lua") then
 		self = filer.fromFile("levels/"..levelname..".lua")
+		if self.hotspot then
+			hotspot.all = self.hotspot
+		end
+	end
+	if love.filesystem.exists("levels/"..levelname.."hotspot.lua") then
+		print("It's there")
+		require("levels/"..levelname.."hotspot")
 	end
 	setmetatable(self,{__index = levelscreen_mt})
 	local imageData = love.image.newImageData("levels/"..levelname..".png")
@@ -73,11 +81,12 @@ function levelscreen_mt:toImageData(filename)
 end
 
 function levelscreen.toLuaScript(filename)
+	levelscreen.current.hotspot = hotspot.all
 	levelscreen.current:toLuaScript(filename)
 end
 
 function levelscreen_mt:toLuaScript( filename )
-	filer.toFile("levels/"..filename..".lua", {decoration = self.decoration, hue = self.hue, sat = self.sat, val = self.val})
+	filer.toFile("levels/"..filename..".lua", {decoration = self.decoration, hue = self.hue, sat = self.sat, val = self.val, hotspot=self.hotspot})
 end
 
 function levelscreen.decorate(deco)

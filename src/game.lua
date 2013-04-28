@@ -52,7 +52,10 @@ function state:mousepressed(x, y, btn)
 					end
 				end
 			elseif GLOBAL.currentTool==3 then
-
+				if btn=="l" then
+					hotspot.new(math.floor(x/2)+px*192,math.floor(y/2)+py*192, decoration.currentImage)
+				elseif btn=="r" then
+				end
 			end
 		end
 	end
@@ -101,6 +104,8 @@ function state:keypressed(key, uni)
 	end
 	if key=="backspace" and GLOBAL.mode=="edit" and GLOBAL.currentTool==2 then
 		levelscreen.removeLastDeco()
+	elseif key=="backspace" and GLOBAL.mode=="edit" and GLOBAL.currentTool==3 then
+		table.remove(hotspot.all,#hotspot.all)
 	end
 	if GLOBAL.mode=="edit" then
 		if key=="up" then
@@ -127,6 +132,7 @@ end
 function state:update(dt)
 	levelscreen.update(dt)
 	player.update(dt)
+	hotspot.update(dt)
 end
 
 
@@ -143,6 +149,8 @@ function state:draw()
 
 	levelscreen.draw()
 	player.draw()
+	love.graphics.setColor(255,255,255)
+	hotspot.draw()
 
 	love.graphics.pop()
 	if unsaved then
@@ -159,6 +167,7 @@ function state:draw()
 		if GLOBAL.currentTool==2 then
 			love.graphics.draw(decoration.images[decoration.currentImage],love.mouse.getX(),love.mouse.getY(),0,2,2)
 		end
+		love.graphics.print("H:"..math.floor(GLOBAL.hue).." S:"..(math.floor(GLOBAL.sat*100)/100).." V:"..(math.floor(GLOBAL.val*100)/100),10,360)
 	end
 end
 

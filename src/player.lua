@@ -49,12 +49,16 @@ player.airtime = 0
 player.dx = 0
 player.dy = 0
 
+player.lastscreen = {x=0,y=0}
+player.lastpos = {x=player.x,y=player.y}
+
 function player.getScreen()
 	return math.floor(player.x/192),math.floor(player.y/192)
 end
 
 function player.update(dt)
 	if GLOBAL.mode=="play" then
+		local sx,sx = player.getScreen()
 		player.time = player.time+dt
 
 		if player.grounded and math.abs(player.dx)<1 then
@@ -97,6 +101,10 @@ function player.update(dt)
 
 		player.y = player.y+player.dy*dt
 		if levelscreen.getCollision(player.x,player.y) then
+			if player.dy>250 then
+				player.x = player.lastpos.x
+				player.y = player.lastpos.y
+			end
 			local _, cx, cy, slope = levelscreen.getCollision(player.x,player.y)
 			if slope then
 				if player.dy>0 then
