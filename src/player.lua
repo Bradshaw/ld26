@@ -68,6 +68,10 @@ function player.update(dt)
 			end
 		else
 			while player.time>player.runTime do
+				if player.curFrame%6 == 1 then
+					snd.step:rewind()
+					snd.step:play()
+				end
 				player.time = player.time-player.runTime
 				player.curFrame = player.curFrame+1
 			end

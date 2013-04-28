@@ -100,11 +100,17 @@ hotspot.all[8].update = function(self,dt)
 			sparkle.cheat(self)
 		end
 		snd.prayed:rewind()
-		snd.prayed:play()
+		snd.intro:stop()
+		snd.thesoul:stop()
+		snd.nopain:play()
+		snd.wind1:stop()
+		snd.wind2:stop()
 		sparkle.impulse(player.x,player.y)
 		self.sound:stop()
 		self.draw = function() end
 		self.update = function() end
+		player.update = function() end
+		player.draw = function() end
 	end
 	self.time = self.time+dt
 end

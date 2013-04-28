@@ -145,6 +145,7 @@ end
 
 
 function state:update(dt)
+	snd.intro:setVolume(1-GLOBAL.val)
 	levelscreen.update(dt)
 	player.update(dt)
 	hotspot.update(dt)
