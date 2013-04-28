@@ -28,7 +28,8 @@ function love.load(arg)
 	snd.intro:setLooping(true)
 	snd.intro:setVolume(0.5)
 	snd.intro:play()
-	--snd.thesoul:play()
+	snd.thesoul:setVolume(0.5)
+	snd.thesoul:play()
 
 	gstate.switch(game)
 end
