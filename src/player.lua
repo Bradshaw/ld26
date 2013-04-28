@@ -1,14 +1,17 @@
 player = {}
 
-player.x = (576)/2
-player.y = (576)/2
+player.x = (550)/2
+player.y = (640)/2
 player.height = 10
+
+player.image = love.graphics.newImage("images/character.png")
 
 player.grounded = false
 
-player.accel = 500
+player.accel = 700
+player.gravity = 400
 player.damp = 1
-player.grounddamp = 6
+player.grounddamp = 10
 
 player.airtime = 0
 
@@ -43,7 +46,7 @@ function player.update(dt)
 		player.dx = player.dx - player.dx*player.grounddamp*dt
 		player.dy = player.dy - player.dy*player.damp*dt
 
-		player.dy = player.dy+dt*player.accel
+		player.dy = player.dy+dt*player.gravity
 
 		player.y = player.y+player.dy*dt
 		if levelscreen.getCollision(player.x,player.y) then
@@ -100,9 +103,11 @@ end
 
 function player.draw()
 	if player.grounded then
-		love.graphics.setColor(0,255,0)
+		--love.graphics.setColor(0,255,0)
 	else
-		love.graphics.setColor(255,0,0)
+		--love.graphics.setColor(255,0,0)
 	end
-	love.graphics.rectangle("fill",math.floor(player.x)-2,math.floor(player.y)-4,4,4)
+	love.graphics.setColor(useful.hsv(GLOBAL.fghue,GLOBAL.fgsat,GLOBAL.fgval))
+	love.graphics.draw(player.image, math.floor(player.x),math.floor(player.y),0,math.sign(player.dx),1,6,11)
+	--love.graphics.rectangle("fill",math.floor(player.x)-2,math.floor(player.y)-4,4,4)
 end
