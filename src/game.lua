@@ -135,6 +135,7 @@ function state:update(dt)
 	levelscreen.update(dt)
 	player.update(dt)
 	hotspot.update(dt)
+	sparkle.update(dt)
 end
 
 
@@ -156,6 +157,7 @@ function state:draw()
 	love.graphics.setColor(255,255,255)
 
 	levelscreen.draw()
+	sparkle.draw()
 	player.draw()
 	love.graphics.setColor(255,255,255)
 	hotspot.draw()
@@ -174,6 +176,7 @@ function state:draw()
 	love.graphics.setColor(0,0,0,140)
 	love.graphics.draw(vig, 0, 0,0,2,2)
 	love.graphics.pop()
+	love.graphics.setBlendMode("alpha")
 	if GLOBAL.mode == "edit" then
 		love.graphics.setColor(255,255,255)
 		love.graphics.print("Editing - "..GLOBAL.edittools[GLOBAL.currentTool],10,10)

@@ -1,5 +1,6 @@
 function love.load(arg)
 	love.graphics.setDefaultImageFilter("nearest","nearest")
+	require("sparkle")
 	require("global")
 	require("useful")
 	gstate = require "gamestate"
