@@ -5,8 +5,39 @@ player.y = (640)/2
 player.height = 10
 
 player.image = love.graphics.newImage("images/character.png")
+player.stand = {}
+
+local frames = 6
+local animations = 4
+
+for i=1,6 do
+	player.stand[i]=love.graphics.newQuad((i-1)*12,0,12,12,frames*12,animations*12)
+end
+player.standTime = 0.2
+
+player.run = {}
+for i=1,6 do
+	player.run[i]=love.graphics.newQuad((i-1)*12,12,12,12,frames*12,animations*12)
+end
+player.runTime = 0.05
+
+player.up = {}
+for i=1,6 do
+	player.up[i]=love.graphics.newQuad((i-1)*12,24,12,12,frames*12,animations*12)
+end
+
+player.down = {}
+for i=1,6 do
+	player.down[i]=love.graphics.newQuad((i-1)*12,36,12,12,frames*12,animations*12)
+end
+
+
+player.curFrame = 1
+
 
 player.grounded = false
+
+player.time = 0
 
 player.accel = 700
 player.gravity = 400
@@ -24,6 +55,22 @@ end
 
 function player.update(dt)
 	if GLOBAL.mode=="play" then
+		player.time = player.time+dt
+
+		if player.grounded and math.abs(player.dx)<1 then
+			while player.time>player.standTime do
+				player.time = player.time-player.standTime
+				player.curFrame = player.curFrame+1
+			end
+		else
+			while player.time>player.runTime do
+				player.time = player.time-player.runTime
+				player.curFrame = player.curFrame+1
+			end
+		end
+		if player.curFrame>frames then
+			player.curFrame = 1
+		end
 
 		if love.keyboard.isDown("left","q","a") then
 			player.dx = player.dx - player.accel * dt
@@ -108,6 +155,13 @@ function player.draw()
 		--love.graphics.setColor(255,0,0)
 	end
 	love.graphics.setColor(useful.hsv(GLOBAL.fghue,GLOBAL.fgsat,GLOBAL.fgval))
-	love.graphics.draw(player.image, math.floor(player.x),math.floor(player.y),0,math.sign(player.dx),1,6,11)
+	local anim = useful.tri(math.abs(player.dx)>10,player.run,player.stand)
+	local updown = useful.tri(player.dy<0,player.up,player.down)
+	anim = useful.tri(player.grounded,anim,updown)
+	love.graphics.drawq(player.image,
+		anim[player.curFrame],
+		math.floor(player.x-math.sign(player.dx)*6),
+		math.floor(player.y-11),0,math.sign(player.dx),1)
+	--love.graphics.draw(player.image, math.floor(player.x),math.floor(player.y),0,math.sign(player.dx),1,6,11)
 	--love.graphics.rectangle("fill",math.floor(player.x)-2,math.floor(player.y)-4,4,4)
 end
