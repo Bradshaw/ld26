@@ -22,6 +22,7 @@ Lit le fichier "filename" et renvoie les données
 ]]
 function filer.fromFile(filename, ...)
 	local s = love.filesystem.read(filename)
+	print(s)
 	return loadstring(s)()
 end
 	

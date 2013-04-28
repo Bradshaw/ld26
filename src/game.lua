@@ -90,6 +90,7 @@ function state:keypressed(key, uni)
 	end
 	if key=="i" then
 		levelscreen.toImageData("level1.png")
+		levelscreen.toLuaScript("level1")
 	end
 	if key=="backspace" and GLOBAL.mode=="edit" and GLOBAL.currentTool==2 then
 		levelscreen.removeLastDeco()

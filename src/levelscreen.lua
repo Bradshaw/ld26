@@ -1,4 +1,5 @@
 require("tile")
+require("filer")
 
 local levelscreen_mt = {}
 
@@ -15,11 +16,11 @@ levelscreen = {}
 function levelscreen.new(name, levelname)
 	local self = {}
 	if love.filesystem.exists("levels/"..levelname..".lua") then
-		self.decoration = require("levels/"..levelname)
+		self = filer.fromFile("levels/"..levelname..".lua")
 	end
 	setmetatable(self,{__index = levelscreen_mt})
 	local imageData = love.image.newImageData("levels/"..levelname..".png")
-	self.decoration = {}
+	self.decoration = self.decoration or {}
 	self.name = name or "Default screen"
 	self.map = {}
 	self.xsize = imageData:getWidth()
@@ -54,6 +55,14 @@ function levelscreen_mt:toImageData(filename)
 		imageData:encode("levels/"..filename)
 	end
 	return imageData
+end
+
+function levelscreen.toLuaScript(filename)
+	levelscreen.current:toLuaScript(filename)
+end
+
+function levelscreen_mt:toLuaScript( filename )
+	filer.toFile("levels/"..filename..".lua", {decoration = self.decoration})
 end
 
 function levelscreen.decorate(deco)
