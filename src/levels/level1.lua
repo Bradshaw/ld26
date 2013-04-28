@@ -10233,6 +10233,40 @@ image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3
         y=791 
       },
       { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=0.014444556397245,
+        x=401,
+        y=187 
+      },
+      {
+        __index={
+          draw=loadstring("\27LJ\1\0\15@decoration.lua—\2\0\1\8\0\11\2#5\28\0074\1\0\0007\1\1\1>\1\1\3\22\1\0\1\22\2\0\0027\3\2\0\20\3\1\3\1\1\3\0T\3\25€7\3\2\0\21\3\1\3\20\4\0\1\1\3\4\0T\3\20€7\3\3\0\20\3\1\3\1\2\3\0T\3\16€7\3\3\0\21\3\1\3\20\4\0\2\1\3\4\0T\3\11€4\3\4\0007\3\5\0037\3\6\0034\4\7\0007\4\8\0047\5\9\0006\4\5\0047\5\2\0007\6\3\0007\7\
+\0>\3\5\1G\0\1\0\13rotation\
+image\11images\15decoration\9draw\13graphics\9love\6y\6x\14getScreen\11player€\3 \1\1\1\2\3\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\4\5\5\5\5\5\5\5\5\5\5\5\7self\0\0$px\0\4 py\0\0 \0\0"),
+          update=loadstring("\27LJ\1\0\15@decoration.lua\28\0\2\2\0\0\0\1\14\24\2G\0\1\0\2self\0\0\2dt\0\0\2\0\0") 
+        } 
+      }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.022644687525045,
+        x=406,
+        y=187 
+      },
+      { __index=nil }
+    ),
+    setmetatable(
+      {
+        image=2,
+        rotation=-0.017863040699649,
+        x=401,
+        y=194 
+      },
+      { __index=nil }
     ) 
   },
   hotspot={
@@ -10269,7 +10303,14 @@ print\6y\6x\9line\11circle\13graphics\9love\9edit\9mode\11GLOBAL\
     setmetatable({ id=15, x=1511, y=535 },{ __index=nil }),
     setmetatable({ id=16, x=243, y=504 },{ __index=nil }),
     setmetatable({ id=17, x=365, y=516 },{ __index=nil }),
-    setmetatable({ id=18, x=315, y=367 },{ __index=nil }) 
+    setmetatable({ id=18, x=315, y=367 },{ __index=nil }),
+    setmetatable({ id=19, x=279, y=318 },{ __index=nil }),
+    setmetatable({ id=20, x=458, y=441 },{ __index=nil }),
+    setmetatable({ id=21, x=856, y=489 },{ __index=nil }),
+    setmetatable({ id=22, x=1097, y=456 },{ __index=nil }),
+    setmetatable({ id=23, x=1077, y=452 },{ __index=nil }),
+    setmetatable({ id=24, x=1061, y=442 },{ __index=nil }),
+    setmetatable({ id=25, x=1050, y=425 },{ __index=nil }) 
   },
   hue=123,
   sat=0,
@@ -11375,6 +11416,8 @@ getmetatable(t.decoration[1122]).__index = getmetatable(t.decoration[1092]).__in
 getmetatable(t.decoration[1123]).__index = getmetatable(t.decoration[1092]).__index
 getmetatable(t.decoration[1124]).__index = getmetatable(t.decoration[1092]).__index
 getmetatable(t.decoration[1125]).__index = getmetatable(t.decoration[1092]).__index
+getmetatable(t.decoration[1127]).__index = getmetatable(t.decoration[1126]).__index
+getmetatable(t.decoration[1128]).__index = getmetatable(t.decoration[1126]).__index
 getmetatable(t.hotspot[2]).__index = getmetatable(t.hotspot[1]).__index
 getmetatable(t.hotspot[3]).__index = getmetatable(t.hotspot[1]).__index
 getmetatable(t.hotspot[4]).__index = getmetatable(t.hotspot[1]).__index
@@ -11392,4 +11435,11 @@ getmetatable(t.hotspot[15]).__index = getmetatable(t.hotspot[1]).__index
 getmetatable(t.hotspot[16]).__index = getmetatable(t.hotspot[1]).__index
 getmetatable(t.hotspot[17]).__index = getmetatable(t.hotspot[1]).__index
 getmetatable(t.hotspot[18]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[19]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[20]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[21]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[22]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[23]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[24]).__index = getmetatable(t.hotspot[1]).__index
+getmetatable(t.hotspot[25]).__index = getmetatable(t.hotspot[1]).__index
 return t

@@ -336,4 +336,58 @@ hotspot.all[18].update = function(self,dt)
 	self.time = self.time+dt
 end
 
+hotspot.all[19].time = 0
+hotspot.all[19].sound = love.audio.newSource("audio/PrayerLoop.ogg")
+hotspot.all[19].sound:setPitch(0)
+hotspot.all[19].sound:setVolume(0)
+hotspot.all[19].sound:setLooping(true)
+hotspot.all[19].sound:play()
+hotspot.all[19].count = 0
+
+hotspot.all[19].sparkled = function(self,x,y)
+	self.count = self.count+1
+end
+
+hotspot.all[19].update = function(self,dt)
+	local dx = self.x - player.x
+	local dy = self.y - player.y
+	local praying = false
+	if (dx*dx+dy*dy)<saveDist*saveDist then
+		praying = true
+	end
+	if self.time>0.05 then
+		sparkle.cheat(self,praying)
+		self.time = 0
+	end
+	self.count = math.max(0,self.count-dt*3)
+	local val = (self.count)/20
+	self.sound:setVolume(val)
+	self.sound:setPitch(val*2)
+	if self.count>20 then
+		print("erro!")
+		levelscreen.get(24,18).type = 0
+		levelscreen.get(24,19).type = 0
+		snd.prayed:rewind()
+		snd.prayed:play()
+		sparkle.impulse(player.x,player.y)
+		sparkle.box(23*16,17*16,16,16,20)
+		sparkle.box(23*16,18*16,16,16,20)
+		self.sound:stop()
+		self.update = function() end
+	end
+	self.time = self.time+dt
+end
+
+--[[]]
+for i=20,25 do
+	hotspot.all[i].update = function(self,dt)
+		local dx = self.x - player.x
+		local dy = self.y - player.y
+		if (dx*dx+dy*dy)<saveDist*saveDist then
+			player.die = true
+		end
+	end
+end
+--]]
+
 print("Loaded the hotspot script")

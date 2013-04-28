@@ -1,6 +1,8 @@
 player = {}
 
-player.x = (550)/2
+player.die = false
+
+player.x = (600)/2
 player.y = (640)/2
 player.height = 10
 
@@ -88,14 +90,14 @@ function player.update(dt)
 		end
 
 		if	love.keyboard.isDown("up","z"," ","w") and player.grounded then
-			if player.dy>250 then
+			if player.die then
+				player.die = false
 				player.x = player.lastpos.x
 				player.y = player.lastpos.y
-			else
-				player.dy = -200
-				player.y = player.y-3
-				player.grounded = false
 			end
+			player.dy = -200
+			player.y = player.y-3
+			player.grounded = false
 		end
 		if not grounded then
 			player.airtime = player.airtime+dt
@@ -110,7 +112,8 @@ function player.update(dt)
 
 		player.y = player.y+player.dy*dt
 		if levelscreen.getCollision(player.x,player.y) then
-			if player.dy>250 then
+			if player.die then
+				player.die=false
 				player.x = player.lastpos.x
 				player.y = player.lastpos.y
 			end
@@ -157,6 +160,11 @@ function player.update(dt)
 			end
 		end
 		if player.grounded and levelscreen.getCollision(player.x,player.y+2) then
+			if player.die then
+				player.die=false
+				player.x = player.lastpos.x
+				player.y = player.lastpos.y
+			end
 			while not levelscreen.getCollision(player.x,player.y+1) do
 				player.y = player.y+0.1
 			end
