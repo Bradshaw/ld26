@@ -14,7 +14,7 @@ decoration.currentImage = 1
 
 function decoration.new(x, y, image)
 	local self = setmetatable({},{__index = decoration_mt})
-	self.rotation = ((math.random()-0.5)*2) * 0.1
+	self.rotation = ((math.random()-0.5)*2) * 0.05
 	self.x = x
 	self.y = y
 	self.image = image

@@ -41,7 +41,14 @@ function state:mousepressed(x, y, btn)
 			if GLOBAL.currentTool==1 then
 				levelscreen.tweak(math.floor(x/2)+px*192,math.floor(y/2)+py*192, useful.tri(btn=="l",1,-1) )
 			elseif GLOBAL.currentTool==2 then
-				levelscreen.decorate(decoration.new(math.floor(x/2)+px*192,math.floor(y/2)+py*192, decoration.currentImage))
+				if btn=="l" then
+					levelscreen.decorate(decoration.new(math.floor(x/2)+px*192,math.floor(y/2)+py*192, decoration.currentImage))
+				elseif btn=="r" then
+					decoration.currentImage = decoration.currentImage+1
+					if decoration.currentImage>#decoration.images then
+						decoration.currentImage=1
+					end
+				end
 			elseif GLOBAL.currentTool==3 then
 
 			end
@@ -84,6 +91,9 @@ function state:keypressed(key, uni)
 	if key=="i" then
 		levelscreen.toImageData("level1.png")
 	end
+	if key=="backspace" and GLOBAL.mode=="edit" and GLOBAL.currentTool==2 then
+		levelscreen.removeLastDeco()
+	end
 end
 
 
@@ -99,6 +109,7 @@ end
 
 
 function state:draw()
+	love.graphics.setBackgroundColor(useful.hsv(GLOBAL.skyhue,GLOBAL.skysat,GLOBAL.skyval))
 	love.graphics.push()
 	love.graphics.scale(2,2)
 	--------------------------------------SCALING

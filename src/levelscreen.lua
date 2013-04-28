@@ -12,11 +12,13 @@ levelscreen = {}
 
 
 
-function levelscreen.new(name, imageData)
-	local self = setmetatable({},{__index = levelscreen_mt})
-	if type(imageData)=="string" then
-		imageData = love.image.newImageData(imageData)
+function levelscreen.new(name, levelname)
+	local self = {}
+	if love.filesystem.exists("levels/"..levelname..".lua") then
+		self.decoration = require("levels/"..levelname)
 	end
+	setmetatable(self,{__index = levelscreen_mt})
+	local imageData = love.image.newImageData("levels/"..levelname..".png")
 	self.decoration = {}
 	self.name = name or "Default screen"
 	self.map = {}
@@ -31,7 +33,7 @@ function levelscreen.new(name, imageData)
 	return self
 end
 
-levelscreen.current = levelscreen.new("Level One",levelone)
+levelscreen.current = levelscreen.new("Level One","level1")
 
 function levelscreen.toImageData(file)
 	return levelscreen.current:toImageData(file)
@@ -62,6 +64,14 @@ function levelscreen_mt:decorate(deco)
 	table.insert(self.decoration,deco)
 end
 
+function levelscreen.removeLastDeco()
+	levelscreen.current:removeLastDeco()
+end
+
+function levelscreen_mt:removeLastDeco()
+	table.remove(self.decoration,#self.decoration)
+end
+
 function levelscreen.update(dt)
 	levelscreen.current:update(dt)
 end
@@ -82,6 +92,12 @@ function levelscreen.draw()
 end
 
 function levelscreen_mt:draw()
+
+	love.graphics.setColor(useful.hsv(GLOBAL.bghue,GLOBAL.bgsat, GLOBAL.bgval))
+	for i,v in ipairs(self.decoration) do
+		v:draw()
+	end
+
 	tile.images.collbatch:clear()
 	local px, py = player.getScreen()
 	for i=px*12,px*12+13 do
@@ -90,10 +106,8 @@ function levelscreen_mt:draw()
 			levelscreen.get(i,j):draw(i,j)
 		end
 	end
+	love.graphics.setColor(useful.hsv(GLOBAL.fghue,GLOBAL.fgsat, GLOBAL.fgval))
 	love.graphics.draw(tile.images.collbatch)
-	for i,v in ipairs(self.decoration) do
-		v:draw()
-	end
 end
 
 function levelscreen.tweak(x,y,dir)
