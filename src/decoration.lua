@@ -26,5 +26,10 @@ function decoration_mt:update(dt)
 end
 
 function decoration_mt:draw()
-	love.graphics.draw(decoration.images[self.image],self.x,self.y,self.rotation)
+	local px, py = player.getScreen()
+	px = px*192
+	py = py*192
+	if self.x+16>px and self.x-16<px+192 and self.y+16>py and self.y-16<py+192 then
+		love.graphics.draw(decoration.images[self.image],self.x,self.y,self.rotation)
+	end
 end

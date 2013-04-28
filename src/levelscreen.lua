@@ -31,10 +31,25 @@ function levelscreen.new(name, levelname)
 			self.map[i+1][j+1] = tile.new(imageData:getPixel(i,j))
 		end
 	end
+	self.hue = self.hue or GLOBAL.hue
+	self.sat = self.sat or GLOBAL.sat
+	self.val = self.val or GLOBAL.val
+	GLOBAL.makeColour(self.hue, self.sat, self.val)
 	return self
 end
 
+function levelscreen.setGlobalHSV()
+	GLOBAL.makeColour(levelscreen.current.hue, levelscreen.current.sat, levelscreen.current.val)
+end
+
+function levelscreen.getGlobalHSV()
+	levelscreen.current.hue = GLOBAL.hue
+	levelscreen.current.sat = GLOBAL.sat
+	levelscreen.current.val = GLOBAL.val
+end
+
 levelscreen.current = levelscreen.new("Level One","level1")
+
 
 function levelscreen.toImageData(file)
 	return levelscreen.current:toImageData(file)
@@ -62,7 +77,7 @@ function levelscreen.toLuaScript(filename)
 end
 
 function levelscreen_mt:toLuaScript( filename )
-	filer.toFile("levels/"..filename..".lua", {decoration = self.decoration})
+	filer.toFile("levels/"..filename..".lua", {decoration = self.decoration, hue = self.hue, sat = self.sat, val = self.val})
 end
 
 function levelscreen.decorate(deco)

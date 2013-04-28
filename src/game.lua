@@ -3,6 +3,7 @@ local state = gstate.new()
 
 function state:init()
 	vig = love.graphics.newImage("images/vig.png")
+	unsaved = false
 	--GLOBAL.mode = "edit"
 end
 
@@ -19,6 +20,7 @@ end
 
 function state:mousepressed(x, y, btn)
 	if GLOBAL.mode == "edit" then
+		unsaved = true
 		local px,py = player.getScreen()
 		if btn=="wu" or btn=="wd" then
 			if btn=="wu" then
@@ -78,6 +80,10 @@ end
 
 
 function state:keypressed(key, uni)
+	if key=="h" and GLOBAL.mode=="edit" then
+		GLOBAL.makeColour()
+		levelscreen.getGlobalHSV()
+	end
 	if key=="escape" then
 		love.event.push("quit")
 	end
@@ -91,9 +97,24 @@ function state:keypressed(key, uni)
 	if key=="i" then
 		levelscreen.toImageData("level1.png")
 		levelscreen.toLuaScript("level1")
+		unsaved = false
 	end
 	if key=="backspace" and GLOBAL.mode=="edit" and GLOBAL.currentTool==2 then
 		levelscreen.removeLastDeco()
+	end
+	if GLOBAL.mode=="edit" then
+		if key=="up" then
+			player.y=player.y-192
+		end
+		if key=="down" then
+			player.y=player.y+192
+		end
+		if key=="left" then
+			player.x=player.x-192
+		end
+		if key=="right" then
+			player.x=player.x+192
+		end
 	end
 end
 
@@ -124,7 +145,11 @@ function state:draw()
 	player.draw()
 
 	love.graphics.pop()
-	love.graphics.setColor(0,0,0,127)
+	if unsaved then
+		love.graphics.setColor(255,0,0)
+		love.graphics.rectangle("line",0,0,192,192)
+	end
+	love.graphics.setColor(0,0,0,140)
 	love.graphics.draw(vig, 0, 0)
 	------------------------------------END SCALING
 	love.graphics.pop()
