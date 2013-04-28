@@ -39,7 +39,7 @@ Step four: Of mice and men
 	* ~~Loading and saving of collision map to png~~
 	* ~~Loading and saving of entity map to .lua~~
 	* Lots of pretty pictures
-	* An animated character
+	* ~~An animated character~~
 	* Music and sounds
 	* Interactables:
 		* Portals from level to level
