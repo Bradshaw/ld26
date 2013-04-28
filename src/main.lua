@@ -10,6 +10,8 @@ function love.load(arg)
 	require("tile")
 	require("player")
 	require("decoration")
+	snd = {}
+	snd.prayed = love.audio.newSource("audio/Prayed.ogg")
 	gstate.switch(game)
 end
 
