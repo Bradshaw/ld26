@@ -18,6 +18,7 @@ function state:init()
 	thue = GLOBAL.hue
 	tsat = GLOBAL.sat
 	tval = GLOBAL.val
+	scroll = 0
 	--GLOBAL.mode = "edit"
 end
 
@@ -147,6 +148,9 @@ end
 function state:update(dt)
 	snd.intro:setVolume(useful.tri(introsndloud,1,1-GLOBAL.val))
 	levelscreen.update(dt)
+	if scrolldown then
+		scroll = math.min(192,scroll+dt*10)
+	end
 	player.update(dt)
 	hotspot.update(dt)
 	sparkle.update(dt)
@@ -167,6 +171,7 @@ function state:draw()
 	love.graphics.setBlendMode("alpha")
 	love.graphics.setColor(useful.hsv(GLOBAL.skyhue,GLOBAL.skysat,GLOBAL.skyval))
 	love.graphics.rectangle("fill",0,0,256,256)
+	--love.graphics.translate(0,-scroll)
 	--------------------------------------SCALING
 	local offx, offy = player.getScreen()
 	love.graphics.push()

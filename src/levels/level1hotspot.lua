@@ -94,6 +94,7 @@ hotspot.all[8].update = function(self,dt)
 	self.sound:setVolume(val)
 	self.sound:setPitch(val*2)
 	if self.count>50 then
+		scrolldown = true
 		targetHSV(200,0,1)
 		sparkle.all = {}
 		for i=1,100 do
